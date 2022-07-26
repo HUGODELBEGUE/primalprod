@@ -1,5 +1,19 @@
-* {
-    box-sizing: border-box;
+/* 
+*
+******************************** variables ********************************
+*
+*/
+
+
+
+
+:root {
+    --body-color: #ede8d1;
+    --footer-color: #f2c744;
+    --button-color: #4F1E0C;
+    --first-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --second-font: 'Ubuntu', sans-serif;
+    --letter-spacing-text: 0.3px;
 }
 
 
@@ -9,7 +23,7 @@
 *
 ******************************** classes ********************************
 *
- */
+*/
 
 
 
@@ -38,43 +52,50 @@
 *
 ******************************** Fonts ********************************
 *
- */
+*/
 
 
 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 h1 {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: var(--first-font);
     font-size: 50px;
-    letter-spacing: 0.3px;
+    letter-spacing: var(--letter-spacing-text);
 }
 
 h2 {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: var(--first-font);
     font-size: 40px;
-    letter-spacing: 0.3px;
+    letter-spacing: var(--letter-spacing-text);
     margin: 10px 0;
 }
 
 p {
-    font-family: 'Ubuntu', sans-serif;
-    letter-spacing: 0.3px;
+    font-family: var(--second-font);
+    letter-spacing: var(--letter-spacing-text);
     line-height: 1.7;
     margin: 3em 0;
 }
 
 a,
 h4 {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    letter-spacing: 0.3px;
+    font-family: var(--first-font);
+    letter-spacing: var(--letter-spacing-text);
     text-decoration: none;
+    margin: 1.5em 0 ;
 }
 
 span,
 label {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: var(--second-font);
     font-size: 20px;
-    letter-spacing: 0.3px;
+    letter-spacing: var(--letter-spacing-text);
 }
 
 i {
@@ -98,8 +119,8 @@ body {
     flex-direction: column;
     margin: 0;
     text-align: center;
-    background-color: #ede8d1;
-    /* background: linear-gradient(#ede8d1 0%, rgba(237, 232, 209, 0.75) 75%) */
+    background-color: var(--body-color);
+    /* background: linear-gradient(var(--body-color), 0%, rgba(237, 232, 209, 0.75) 75%) */
 }
 
 
@@ -115,7 +136,7 @@ header {
     width: 100%;
     z-index: 1;
     height: 48px;
-    background-color: #ede8d1;
+    background-color: var(--body-color);
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
         0 3px 1px -2px rgba(0, 0, 0, 0.2),
         0 1px 5px 0 rgba(0, 0, 0, 0.12);
@@ -128,6 +149,10 @@ header div.content-header {
     height: 48px;
     max-width: 1000px;
     margin: 0 auto;
+}
+
+header img {
+    filter: drop-shadow(0 2px 1px rgba(0, 0, 0, 0.2));
 }
 
 
@@ -146,7 +171,8 @@ nav ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    font-size: 25px;
+    gap: 3em;
+    font-size: 20px;
     margin: 0;
 }
 
@@ -157,6 +183,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: rgba(0, 0, 0);
+    transition: color .15s linear;
 }
 
 nav ul li a:hover {
@@ -186,10 +213,9 @@ nav div.menu-items {
     display: none;
     flex-direction: column;
     align-items: center;
-    background-color: #ede8d1;
+    background-color: var(--body-color);
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
     margin-top: 1px;
-    transition: all .30 linear;
 }
 
 nav div.menu-items a {
@@ -198,6 +224,7 @@ nav div.menu-items a {
     cursor: pointer;
     width: 100%;
     padding: 1em 0 1em 0;
+    margin: 0;
     transition: .15s;
 }
 
@@ -314,9 +341,9 @@ section div#form-contact form input.submit-button {
     width: 20%;
     height: 3em;
     margin: 0 auto;
-    background-color: #4F1E0C;
+    background-color: var(--button-color);
     color: rgba(255, 255, 255, .7);
-    border-color: #4F1E0C;
+    border-color: var(--button-color);
     border-radius: 4px;
     box-shadow: 5px 5px 0px rgba(79, 30, 12, .5);
     transition: all .15s linear 0s;
@@ -355,7 +382,7 @@ section div#form-contact div#form-right {
 
 
 footer {
-    background-color: #f2c744;
+    background-color: var(--footer-color);
 }
 
 footer div.content-footer {
@@ -383,12 +410,21 @@ footer div #footer-text {
 }
 
 hr.line-icon {
-    background-image: url(../images/icon.svg);
+    background-image: url(../images/line.svg);
     background-repeat: no-repeat;
     width: 100%;
     height: 20px;
     background-position: center;
     border: none;
+}
+
+hr.line-body {
+    height: 50px;
+    width: 98%;
+    margin: 0 auto;
+    border: 1px solid rgb(128, 128, 128, 0.3);
+    border-left: none;
+    border-right: none;
 }
 
 hr {

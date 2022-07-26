@@ -53,7 +53,7 @@
                 quaerat fugiat. Illo eligendi obcaecati corrupti libero eos neque?</p>
         </div>
     </section>
-    <hr>
+    <hr class="line-body">
     <section id="projects">
         <div class="boxmodel">
             <h2>Projets</h2>
@@ -71,7 +71,7 @@
             </div>
         </div>
     </section>
-    <hr>
+    <hr class="line-body">
     <section id="about">
         <div class="boxmodel">
             <h2>A propos</h2>
@@ -79,7 +79,7 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, fuga ut labore sapiente libero, consectetur enim nihil neque ab iste officia at ullam reprehenderit corporis et suscipit reiciendis accusantium optio molestiae! Debitis eligendi minus sed dignissimos obcaecati mollitia atque delectus enim, cupiditate ab, voluptate illo recusandae, asperiores est quo dicta!</p>
         </div>
     </section>
-    <hr>
+    <hr class="line-body">
     <section id="contact">
         <div class="boxmodel">
             <h2>Me contacter</h2>
