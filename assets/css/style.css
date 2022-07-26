@@ -1,0 +1,506 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+/* 
+*
+******************************** classes ********************************
+*
+ */
+
+
+
+
+.boxmodel {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.textmodel {
+    padding: 20px;
+    text-align: left;
+}
+
+.textinput {
+    margin: 0;
+    margin-bottom: 10px;
+    line-height: initial;
+}
+
+
+
+
+/* 
+*
+******************************** Fonts ********************************
+*
+ */
+
+
+
+
+h1 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    letter-spacing: 0.3px;
+}
+
+h2 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.3px;
+    margin: 10px 0;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 0.3px;
+    line-height: 1.7;
+    margin: 3em 0;
+}
+
+a,
+h4 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+}
+
+span,
+label {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+}
+
+i {
+    margin-right: 10px;
+}
+
+
+
+
+/* 
+*
+******************************** containers ******************************** 
+*
+ */
+
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    text-align: center;
+    background-color: #ede8d1;
+    /* background: linear-gradient(#ede8d1 0%, rgba(237, 232, 209, 0.75) 75%) */
+}
+
+
+
+
+/***** header *****/
+
+
+
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 48px;
+    background-color: #ede8d1;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+        0 3px 1px -2px rgba(0, 0, 0, 0.2),
+        0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+header div.content-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 48px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+
+/***** navbar *****/
+
+
+
+
+nav {
+    margin: auto 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 25px;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0);
+}
+
+nav ul li a:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+nav label {
+    display: none;
+    justify-content: right;
+    align-items: center;
+    height: 48px;
+}
+
+nav label:hover {
+    cursor: pointer;
+}
+
+nav label i::before {
+    font-size: 40px;
+}
+
+nav input#menu {
+    display: none;
+}
+
+nav div.menu-items {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ede8d1;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    margin-top: 1px;
+    transition: all .30 linear;
+}
+
+nav div.menu-items a {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    cursor: pointer;
+    width: 100%;
+    padding: 1em 0 1em 0;
+    transition: .15s;
+}
+
+nav div.menu-items a:hover {
+    background-color: rgba(242, 199, 68, 0.40);
+}
+
+hr.line-menu {
+    margin: 0;
+    width: 100%;
+    opacity: 0.2;
+}
+
+
+
+
+/***** sections *****/
+
+
+
+
+section {
+    padding-top: 25px;
+}
+
+/* presentation */
+
+section#presentation {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    min-height: 100vh;
+}
+
+section#presentation div {
+    padding: 11% 20px;
+    max-width: 800px;
+}
+
+/* projects */
+
+section div div#projects-box {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+section div div#projects-box div.card {
+    background-color: brown;
+    width: 250px;
+    height: 250px;
+    border-radius: 2px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+        0 1px 10px 0 rgba(0, 0, 0, 0.12),
+        0 2px 4px -1px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+}
+
+section div div#projects-box div.card img {
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+    opacity: 1;
+}
+
+section div div#projects-box div.card img:hover {
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+    opacity: .5;
+}
+
+/* contact */
+
+section div#form-contact {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 5em 20px;
+}
+
+section div#form-contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 50em;
+    text-align: right;
+}
+
+section div#form-contact form label {
+    display: block ruby;
+    margin-bottom: 10px;
+}
+
+section div#form-contact form input {
+    padding: 10px;
+    margin-left: 10px;
+    font-family: monospace;
+}
+
+section div#form-contact form input,
+textarea {
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+section div#form-contact form input.submit-button {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 3em;
+    margin: 0 auto;
+    background-color: #4F1E0C;
+    color: rgba(255, 255, 255, .7);
+    border-color: #4F1E0C;
+    border-radius: 4px;
+    box-shadow: 5px 5px 0px rgba(79, 30, 12, .5);
+    transition: all .15s linear 0s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+section div#form-contact form input.submit-button:hover {
+    position: relative;
+    top: 5px;
+    left: 4px;
+    color: rgba(255, 255, 255, .7);
+    background-color: #603424;
+    border-color: #603424;
+    box-shadow: 0px 0px 0px rgba(79, 30, 12, .5);
+}
+
+section div#form-contact div#form-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30em;
+    text-align: left;
+    padding: 5em 0;
+    border: 2px solid gray;
+    border-left: none;
+    border-right: none;
+}
+
+
+
+
+/***** footer *****/
+
+
+
+
+footer {
+    background-color: #f2c744;
+}
+
+footer div.content-footer {
+    display: flex;
+}
+
+footer div#footer-left {
+    width: 40em;
+}
+
+footer div#footer-left ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer div#footer-right {
+    width: 40em;
+}
+
+footer div #footer-text {
+    margin: 0;
+}
+
+hr.line-icon {
+    background-image: url(../images/icon.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20px;
+    background-position: center;
+    border: none;
+}
+
+hr {
+    width: 100%;
+}
+
+
+
+
+/* 
+*
+******************************** medias query ********************************
+*
+ */
+
+
+ 
+
+@media only screen and (max-width: 1090px) {
+    header {
+        /* background-color: blueviolet; */
+        position: static;
+    }
+
+    header div.content-header img {
+        position: absolute;
+    }
+
+    header nav ul {
+        display: none;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav label {
+        display: flex;
+    }
+
+    nav #menu:checked+.menu-items {
+        display: flex;
+    }
+
+    section {
+        padding-top: 0;
+    }
+
+    section div#form-contact {
+        flex-wrap: wrap;
+    }
+
+    div#form-contact form {
+        align-items: center;
+        margin: 0 6em;
+        text-align: center !important;
+    }
+
+    section div#form-contact form label {
+        display: block;
+    }
+
+    section div#form-contact div {
+        gap: 15px;
+        text-align: center !important;
+    }
+
+    div#form-right {
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    nav div.menu-items a {
+        font-size: 18px;
+    }
+
+    section {
+        padding-top: 0;
+    }
+
+    section div#form-contact form input,
+    textarea {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    div#form-contact form {
+        margin: 0;
+    }
+
+    section div#form-contact form label {
+        display: block;
+    }
+
+    section div#form-contact form input.submit-button {
+        width: 100%;
+    }
+
+    section div#form-contact div#form-right {
+        display: none;
+    }
+
+    footer div.content-footer {
+        flex-wrap: wrap;
+    }
+}
