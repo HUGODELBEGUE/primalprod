@@ -20,10 +20,30 @@
             <img src="./assets/images/logo.png" alt="logo primalprod" width="100" height="100">
             <nav>
                 <ul>
-                    <li><a href="#presentation">Présentation</a></li>
-                    <li><a href="#projects">Expérience</a></li>
-                    <li><a href="#about">A propos</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <a href="#presentation">
+                            <i class="bi bi-easel-fill"></i>
+                            Présentation
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects">
+                            <i class="bi bi-kanban-fill"></i>
+                            Expérience
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about">
+                            <i class="bi bi-file-person-fill"></i>
+                            A propos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact">
+                            <i class="bi bi-person-lines-fill"></i>
+                            Contact
+                        </a>
+                    </li>
                 </ul>
                 <label id="icon-menu" for="menu">
                     <i class="bi bi-list"></i>
@@ -57,25 +77,29 @@
     <section id="projects">
         <div class="boxmodel">
             <h2>Projets</h2>
-            <hr class="line-icon">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit rem voluptates illo qui, dicta esse doloremque perspiciatis eius aut veniam libero repudiandae a reiciendis explicabo, consectetur fuga? Perspiciatis sed iusto inventore aliquid sapiente ducimus blanditiis. Quaerat enim ad itaque voluptates eveniet animi unde optio corrupti accusamus. Rem atque maiores error?</p>
-            <div id="projects-box">
-                <div class="card">
-                    <img src="./assets/images/TeaCozy.png" alt="" width="250" height="250">
+            <hr class="line-title">
+            <div id="projects-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit rem voluptates illo qui, dicta esse doloremque perspiciatis eius aut veniam libero repudiandae a reiciendis explicabo, consectetur fuga? Perspiciatis sed iusto inventore aliquid sapiente ducimus blanditiis. Quaerat enim ad itaque voluptates eveniet animi unde optio corrupti accusamus. Rem atque maiores error?</p>
+                <div id="projects-box">
+                    <div class="card">
+                        <img src="./assets/images/TeaCozy.png" alt="">
+                    </div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card" id="card-end">
+                        <img src="./assets/images/suite.svg" alt="etiquette suite prochainement">
+                    </div>
                 </div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
             </div>
         </div>
     </section>
-    <hr class="line-body">
+    <hr class="line-body" style="top: -30px;">
     <section id="about">
         <div class="boxmodel">
             <h2>A propos</h2>
-            <hr class="line-icon">
+            <hr class="line-title">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, fuga ut labore sapiente libero, consectetur enim nihil neque ab iste officia at ullam reprehenderit corporis et suscipit reiciendis accusantium optio molestiae! Debitis eligendi minus sed dignissimos obcaecati mollitia atque delectus enim, cupiditate ab, voluptate illo recusandae, asperiores est quo dicta!</p>
         </div>
     </section>
@@ -83,7 +107,7 @@
     <section id="contact">
         <div class="boxmodel">
             <h2>Me contacter</h2>
-            <hr class="line-icon">
+            <hr class="line-title">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit sint fugit sunt error hic magnam iure. Rerum, aperiam incidunt. Aperiam doloribus neque tenetur maxime laborum quasi. Pariatur eaque accusamus suscipit cumque aspernatur temporibus laborum quas, perferendis distinctio mollitia quibusdam, explicabo totam. Distinctio, earum! Deserunt ipsam accusantium, fugit facilis numquam tenetur!</p>
             <div id="form-contact">
                 <form method="post">
@@ -113,17 +137,20 @@
                     <input class="submit-button" type="submit" value="Envoyer">
                 </form>
                 <div id="form-right">
-                    <span><i class="bi bi-envelope"></i>
+                    <span><i class="bi bi-envelope iconlegende"></i>
                         hugodelbegue@gmail.com
                     </span>
-                    <span><i class="bi bi-phone"></i>
+                    <span><i class="bi bi-phone iconlegende"></i>
                         06 38 38 77 07
                     </span>
-                    <span><i class="bi bi-instagram"></i></i>
+                    <span><i class="bi bi-instagram iconlegende"></i></i>
                         instagram
                     </span>
-                    <span><i class="bi bi-linkedin"></i>
+                    <span><i class="bi bi-linkedin iconlegende"></i>
                         dhfdfh
+                    </span>
+                    <span><i class="bi bi-github iconlegende"></i>
+                        HUGODELBEGUE
                     </span>
                 </div>
             </div>
@@ -136,32 +163,32 @@
                 <ul>
                     <li>
                         <span>
-                            <i class="bi bi-tornado"></i>
+                            <i class="bi bi-tornado iconlegende"></i>
+                            hugodelbegue@gmail.com
                         </span>
-                        hugodelbegue@gmail.com
                     </li>
                     <li>
                         <span>
-                            <i class="bi bi-tropical-storm"></i>
+                            <i class="bi bi-tropical-storm iconlegende"></i>
+                            06 38 38 77 07
                         </span>
-                        06 38 38 77 07
                     </li>
                     <li>
                         <span>
-                            <i class="bi bi-vector-pen"></i>
+                            <i class="bi bi-vector-pen iconlegende"></i>
+                            site
                         </span>
-                        site
                     </li>
                     <li>
                         <span>
-                            <i class="bi bi-stack"></i>
+                            <i class="bi bi-stack iconlegende"></i>
+                            formulaire
                         </span>
-                        formulaire
                     </li>
                 </ul>
             </div>
             <div id="footer-right" class="textmodel">
-                <h4>Hugo Delbegue</h4>
+                <h4>En savoir un peu plus..</h4>
                 <p id="footer-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas maiores vero autem aliquam cupiditate, sapiente velit maxime delectus adipisci placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo harum nisi cumque ipsum officiis corrupti voluptate provident distinctio nemo quia!
                 </p>
             </div>
