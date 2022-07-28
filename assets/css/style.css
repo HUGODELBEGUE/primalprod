@@ -79,6 +79,13 @@
     background-position: center;
 }
 
+.line-content {
+    border: 3px solid rgba(223, 223, 223, 0.85);
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
 
 
 
@@ -202,6 +209,10 @@ header div.content-header {
     margin: 0 auto;
 }
 
+header div.content-header a {
+    margin: 0;
+}
+
 header img {
     filter: drop-shadow(0 2px 1px rgba(0, 0, 0, 0.2));
 }
@@ -287,6 +298,12 @@ nav div.menu-items a:hover {
 
 
 
+section#projects, section#contact {
+    padding-top: 5.5em;
+}
+
+
+
 /* presentation */
 
 section#presentation {
@@ -355,8 +372,16 @@ section div div#projects-box div.card img:hover {
 }
 
 section div div#projects-box div#card-end.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--secondary-body-color);
     box-shadow: 0 0 0 rgba(0, 0, 0);
+}
+
+section div div#projects-box div#card-end.card img {
+    width: 150px;
+    height: 150px;
 }
 
 section div div#projects-box div#card-end.card img:hover {
@@ -383,7 +408,6 @@ section div#form-contact form {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    width: 50em;
     text-align: right;
     padding: 2em;
     background-color: var(--primary-body-color);
