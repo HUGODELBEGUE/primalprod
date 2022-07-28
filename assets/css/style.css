@@ -80,10 +80,11 @@
 }
 
 .line-content {
-    border: 3px solid rgba(223, 223, 223, 0.85);
+    border: 2px solid rgba(223, 223, 223, 0.85);
     width: 30%;
     margin: 0 auto;
     border-radius: 50%;
+    background-color: rgba(223, 223, 223, 0.85);
 }
 
 
@@ -329,7 +330,7 @@ section#projects {
 
 section div#projects-content {
     display: flex;
-    padding: 4em 2em 2em 2em;
+    padding: 5em 2em 2em 2em;
     column-gap: 4.5em;
 }
 
@@ -343,7 +344,6 @@ section div div#projects-box {
     justify-content: center;
     gap: 2em;
     flex-wrap: wrap;
-    padding: 1em;
 }
 
 section div div#projects-box div.card {
@@ -395,6 +395,9 @@ section div div#projects-box div#card-end.card img:hover {
 
 section#contact {
     background-color: var(--secondary-body-color);
+    background-image: url(../images/world.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 section div#form-contact {
@@ -416,8 +419,10 @@ section div#form-contact form {
 }
 
 section div#form-contact form label {
-    display: block ruby;
+    display: flex;
+    justify-content: flex-end;
     margin-bottom: 10px;
+    height: 40px;
 }
 
 section div#form-contact form input {
