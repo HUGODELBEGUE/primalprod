@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="./assets/images/favicon.svg">
+    <link rel="shortcut icon" href="./assets/images/favicon.png">
     <title>Freelance | Hugo Delbegue</title>
 </head>
 
@@ -88,12 +88,35 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit rem voluptates illo qui, dicta esse doloremque perspiciatis eius aut veniam libero repudiandae a reiciendis explicabo, consectetur fuga? Perspiciatis sed iusto inventore aliquid sapiente ducimus blanditiis. Quaerat enim ad itaque voluptates eveniet animi unde optio corrupti accusamus. Rem atque maiores error?</p>
                 <div id="projects-box">
                     <div class="card">
-                        <img src="./assets/images/TeaCozy.png" alt="">
+                        <img src="./assets/images/teacozy.png" alt="site teacozy" width="200" height="200">
+                        <div class="fadedbox">
+                            <i class="bi bi-search title text"></i>
+                        </div>
                     </div>
-                    <div class="card"></div>
-                    <div class="card"></div>
-                    <div class="card"></div>
-                    <div class="card"></div>
+                    <div class="card">
+                        <img src="" alt="" width="200" height="200">
+                        <div class="fadedbox">
+                            <i class="bi bi-search title text"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="" alt="" width="200" height="200">
+                        <div class="fadedbox">
+                            <i class="bi bi-search title text"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="" alt="" width="200" height="200">
+                        <div class="fadedbox">
+                            <i class="bi bi-search title text"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="" alt="" width="200" height="200">
+                        <div class="fadedbox">
+                            <i class="bi bi-search title text"></i>
+                        </div>
+                    </div>
                     <div class="card" id="card-end">
                         <img src="./assets/images/suite.svg" alt="etiquette suite prochainement">
                     </div>
@@ -106,8 +129,7 @@
         <div class="boxmodel">
             <h2>A propos</h2>
             <hr class="line-title">
-            <p><img src="./assets/images/logo.png" alt="" width="300" height="300" style="float: left;"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, fuga ut labore sapiente libero, consectetur enim nihil neque ab iste officia at ullam reprehenderit corporis et suscipit reiciendis accusantium optio molestiae! Debitis eligendi minus sed dignissimos obcaecati mollitia atque delectus enim, cupiditate ab, voluptate illo recusandae, asperiores est quo dicta!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet cupiditate, culpa dolorum inventore dicta odit nisi libero sed repudiandae iusto esse illum a molestias, temporibus illo rerum asperiores accusamus ipsam in vero. Repellendus quisquam aspernatur optio corporis, unde iure obcaecati culpa tempore praesentium aut consequatur, maiores error explicabo, cupiditate quis velit et quidem voluptate sequi mollitia at! Facere, culpa? Aperiam provident dolorem vero excepturi perspiciatis dicta suscipit ipsa. Ducimus accusantium quia nobis excepturi voluptatem libero praesentium eius voluptate cum. Libero aperiam fuga quaerat temporibus! Aliquam veritatis voluptatum similique ad. Maxime ipsum eius at, tenetur voluptatem, fuga similique enim perferendis molestiae eligendi saepe? Culpa quod delectus maiores omnis blanditiis et voluptate officiis rerum dolor corporis odit, a porro iure distinctio cum veritatis adipisci consequuntur id vel error debitis sint alias nostrum. Quod harum, asperiores suscipit iure placeat aut reiciendis assumenda debitis id necessitatibus, rerum fuga nihil voluptas eius maiores minima distinctio dolorum eaque eligendi cumque explicabo est error ullam delectus? Fugit enim libero officia, eaque incidunt optio nemo, cum vitae ullam aliquid quis sed, itaque et distinctio excepturi in maiores cumque quaerat officiis ad? Ipsum amet tempore aperiam porro eligendi expedita optio fugit reiciendis odio, ea facere eaque aut! Deserunt, commodi!</p>
+            <p><img class="avatar" src="./assets/images/avatar.jpg" alt="avatar" width="150"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, fuga ut labore sapiente libero, consectetur enim nihil neque ab iste officia at ullam reprehenderit corporis et suscipit reiciendis accusantium optio molestiae! Debitis eligendi minus sed dignissimos obcaecati mollitia atque delectus enim, cupiditate ab, voluptate illo recusandae, asperiores est quo dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet cupiditate, culpa dolorum inventore dicta odit nisi libero sed repudiandae iusto esse illum a molestias, temporibus illo rerum asperiores accusamus ipsam in vero. Repellendus quisquam aspernatur optio corporis, unde iure obcaecati culpa tempore praesentium aut consequatur, maiores error explicabo, cupiditate quis velit et quidem voluptate sequi mollitia at! Facere, culpa? Aperiam provident dolorem vero excepturi perspiciatis dicta suscipit ipsa. Ducimus accusantium quia nobis excepturi voluptatem libero praesentium eius voluptate cum. Libero aperiam fuga quaerat temporibus! Aliquam veritatis voluptatum similique ad. Maxime ipsum eius at, tenetur voluptatem, fuga similique enim perferendis molestiae eligendi saepe? Culpa quod delectus maiores omnis blanditiis et voluptate officiis rerum dolor corporis odit, a porro iure distinctio cum veritatis adipisci consequuntur id vel error debitis sint alias nostrum. Quod harum, asperiores suscipit iure placeat aut reiciendis assumenda debitis id necessitatibus, rerum fuga nihil voluptas eius maiores minima distinctio dolorum eaque eligendi cumque explicabo est error ullam delectus? Fugit enim libero officia, eaque incidunt optio nemo, cum vitae ullam aliquid quis sed, itaque et distinctio excepturi in maiores cumque quaerat officiis ad? Ipsum amet tempore aperiam porro eligendi expedita optio fugit reiciendis odio, ea facere eaque aut! Deserunt, commodi!</p>
         </div>
     </section>
     <hr class="line-body">
@@ -120,15 +142,15 @@
             <div id="form-contact">
                 <form method="post">
                     <label class="textinput">
-                            Votre nom
+                        Votre nom
                         <input type="text" name="name" placeholder="Tom Sawyer" size="50" required>
                     </label>
                     <label class="textinput">
-                            Votre adresse email
+                        Votre adresse email
                         <input type="email" name="email" placeholder="tom.sawyer@aventure.com" size="50" required>
                     </label>
                     <label class="textinput">
-                            L'objet de votre demande
+                        L'objet de votre demande
                         <input type="text" name="subject" placeholder="Sujet du message.." size="50" required>
                     </label>
                     <textarea name="message" cols="30" rows="10" placeholder="Ecrivez votre demande ici.." required></textarea>
@@ -145,10 +167,10 @@
                         instagram
                     </span>
                     <span><i class="bi bi-linkedin iconlegende"></i>
-                        dhfdfh
+                        linkedin.com/hugo-delbegue
                     </span>
                     <span><i class="bi bi-github iconlegende"></i>
-                        HUGODELBEGUE
+                        github.com/HUGODELBEGUE
                     </span>
                 </div>
             </div>

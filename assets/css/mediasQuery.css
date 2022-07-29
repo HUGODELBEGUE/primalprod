@@ -7,7 +7,6 @@
 
 @media only screen and (max-width: 1080px) {
     header {
-        /* background-color: blueviolet; */
         position: static;
     }
 
@@ -82,6 +81,10 @@
 
 @media only screen and (max-width: 610px) {
 
+    .textinput {
+        font-size: 15px;
+    }
+
     p {
         margin: 2.5em 0;
     }
@@ -100,6 +103,11 @@
 
     section div#projects-content {
         padding: 0;
+    }
+
+    section div p img.avatar {
+        float: none;
+        position: static;
     }
 
     section div#form-contact {
