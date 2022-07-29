@@ -1,31 +1,5 @@
 /* 
 *
-******************************** variables ********************************
-*
-*/
-
-
-
-
-:root {
-    --primary-body-color: #ede8d1;
-    --secondary-body-color: #dbd3af;
-    --footer-color: #f2c744;
-    --button-color: #4F1E0C;
-    --first-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --second-font: 'Ubuntu', sans-serif;
-    --letter-spacing-text: 0.3px;
-    --box-shadow-2dp: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-    --box-shadow-4dp: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
-        0 1px 10px 0 rgba(0, 0, 0, 0.12),
-        0 2px 4px -1px rgba(0, 0, 0, 0.2);
-}
-
-
-
-
-/* 
-*
 ******************************** classes ********************************
 *
 */
@@ -131,7 +105,7 @@ h4 {
 span,
 label {
     font-family: var(--second-font);
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: var(--letter-spacing-text);
 }
 
@@ -410,7 +384,7 @@ section div#form-contact {
 section div#form-contact form {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 2em;
     text-align: right;
     padding: 2em;
     background-color: var(--primary-body-color);
@@ -420,23 +394,25 @@ section div#form-contact form {
 
 section div#form-contact form label {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
     margin-bottom: 10px;
     height: 40px;
 }
 
 section div#form-contact form input {
     padding: 10px;
-    margin-left: 10px;
     font-family: monospace;
 }
 
-section div#form-contact form input,
-textarea {
+section div#form-contact form input, textarea {
     border-radius: 10px;
     border: none;
     font-size: 15px;
     padding: 10px;
+    margin-top: 8px;
+    width: 100%;
 }
 
 section div#form-contact form input.submit-button {
@@ -521,143 +497,4 @@ hr.line-body {
 
 hr {
     width: 100%;
-}
-
-
-
-
-/* 
-*
-******************************** medias query ********************************
-*
- */
-
-
-
-
-@media only screen and (max-width: 1140px) {
-    header {
-        /* background-color: blueviolet; */
-        position: static;
-    }
-
-    header div.content-header {
-        max-width: none;
-    }
-
-    header div.content-header img {
-        position: absolute;
-    }
-
-    header nav ul {
-        display: none;
-    }
-
-    nav {
-        width: 100%;
-    }
-
-    nav label {
-        display: flex;
-    }
-
-    nav #menu:checked+.menu-items {
-        display: flex;
-    }
-
-    section {
-        padding-top: 0;
-    }
-
-    section div#projects-content {
-        display: block;
-        padding: 0 2em 2em 2em;
-    }
-
-    section div#projects-content p {
-        width: 100%;
-        text-align: center;
-    }
-
-    section div#form-contact {
-        flex-wrap: wrap;
-    }
-
-    div#form-contact form {
-        align-items: center;
-        text-align: center !important;
-    }
-
-    section div#form-contact form label {
-        display: block;
-    }
-
-    section div#form-contact div {
-        gap: 15px;
-        text-align: center !important;
-    }
-
-    div#form-right {
-        padding: 30px;
-    }
-
-    h1 {
-        font-size: 30px;
-    }
-
-    h2 {
-        font-size: 25px;
-    }
-
-    .iconform {
-        position: static;
-    }
-}
-
-@media only screen and (max-width: 570px) {
-    nav div.menu-items a {
-        font-size: 18px;
-    }
-
-    section {
-        padding-top: 0;
-    }
-
-    section#presentation div {
-        padding: 6em 20px;
-    }
-
-    section div#projects-content {
-        padding: 0;
-    }
-
-    section div#form-contact {
-        padding: 0;
-    }
-
-    section div#form-contact form input,
-    textarea {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    div#form-contact form {
-        margin: 0;
-    }
-
-    section div#form-contact form label {
-        display: block;
-    }
-
-    section div#form-contact form input.submit-button {
-        width: 100%;
-    }
-
-    section div#form-contact div#form-right {
-        display: none;
-    }
-
-    footer div.content-footer {
-        flex-wrap: wrap;
-    }
 }

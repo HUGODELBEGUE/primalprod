@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/variables.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/mediasQuery.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -117,29 +119,19 @@
             <hr class="line-content">
             <div id="form-contact">
                 <form method="post">
-                    <label>
-                        <p class="textinput">
+                    <label class="textinput">
                             Votre nom
-                        </p>
                         <input type="text" name="name" placeholder="Tom Sawyer" size="50" required>
                     </label>
-                    <br>
-                    <label>
-                        <p class="textinput">
+                    <label class="textinput">
                             Votre adresse email
-                        </p>
                         <input type="email" name="email" placeholder="tom.sawyer@aventure.com" size="50" required>
                     </label>
-                    <br>
-                    <label>
-                        <p class="textinput">
+                    <label class="textinput">
                             L'objet de votre demande
-                        </p>
                         <input type="text" name="subject" placeholder="Sujet du message.." size="50" required>
                     </label>
-                    <br>
                     <textarea name="message" cols="30" rows="10" placeholder="Ecrivez votre demande ici.." required></textarea>
-                    <br>
                     <input class="submit-button" type="submit" value="Envoyer">
                 </form>
                 <div id="form-right">
