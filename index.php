@@ -88,24 +88,16 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit rem voluptates illo qui, dicta esse doloremque perspiciatis eius aut veniam libero repudiandae a reiciendis explicabo, consectetur fuga? Perspiciatis sed iusto inventore aliquid sapiente ducimus blanditiis. Quaerat enim ad itaque voluptates eveniet animi unde optio corrupti accusamus. Rem atque maiores error?</p>
                 <div id="projects-box">
                     <div class="card">
-                        <a href="https://primalprod.fr/one-page/apps/teacozy/">
-                            <img src="./assets/images/teacozy.png" alt="site teacozy" width="200" height="200">
+                        <a href="./projects/teacozy/">
+                            <img class="img-project" src="./assets/images/teacozy.png" alt="site teacozy">
                             <div class="fadedbox">
-                                <i class="bi bi-search title text"><br>Flexbox</i>
+                                <i class="bi bi-search title text"><br>Flexbox<br>site entrainement</i>
                             </div>
                         </a>
                     </div>
                     <div class="card">
                         <a href="">
-                            <img src="" alt="" width="200" height="200">
-                            <div class="fadedbox">
-                                <i class="bi bi-search title text"><br></i>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a href="">
-                            <img src="" alt="" width="200" height="200">
+                            <img class="img-project" src="" alt="">
                             <div class="fadedbox">
                                 <i class="bi bi-search title text"><br></i>
                             </div>
@@ -113,7 +105,7 @@
                     </div>
                     <div class="card">
                         <a href="">
-                            <img src="" alt="" width="200" height="200">
+                            <img class="img-project" src="" alt="">
                             <div class="fadedbox">
                                 <i class="bi bi-search title text"><br></i>
                             </div>
@@ -121,7 +113,15 @@
                     </div>
                     <div class="card">
                         <a href="">
-                            <img src="" alt="" width="200" height="200">
+                            <img class="img-project" src="" alt="">
+                            <div class="fadedbox">
+                                <i class="bi bi-search title text"><br></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="">
+                            <img class="img-project" src="" alt="">
                             <div class="fadedbox">
                                 <i class="bi bi-search title text"><br></i>
                             </div>

@@ -80,7 +80,7 @@
     section div div.card {
         scroll-snap-type: x mandatory;
         scroll-snap-align: start;
-        flex: 1 0 200px;
+        flex: 1 0 250px;
         margin-bottom: 2em;
     }
 
@@ -139,6 +139,13 @@
 
     section div#projects-content {
         padding: 0;
+    }
+
+    section div div#projects-box .card, .fadedbox, .img-project {
+        aspect-ratio: auto 200 / 200;
+        width: 200px !important;
+        height: 200px !important;
+        flex: 1 0 200px;
     }
 
     section div p img.avatar {
