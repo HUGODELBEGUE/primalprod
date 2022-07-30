@@ -190,7 +190,7 @@
                     <li>
                         <span>
                             <i class="bi bi-tropical-storm iconlegende"></i>
-                            06 38 38 77 07
+                            autres
                         </span>
                     </li>
                     <li>
