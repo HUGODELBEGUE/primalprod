@@ -391,10 +391,13 @@ section div div#projects-box div.card span.text-box {
   }
   .card .title {
     font-size: 2.5em;
-    font-variant-caps: all-small-caps;
+    font-variant-caps: small-caps;
     opacity: 0;
     transition-delay: 0.2s;
     transition-duration: 0.3s;
+    margin: 0;
+    font-style: normal;
+    font-size: 25px;
   }
   .card:hover .title,
   .card:focus .title {

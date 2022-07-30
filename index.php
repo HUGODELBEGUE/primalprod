@@ -88,34 +88,44 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit rem voluptates illo qui, dicta esse doloremque perspiciatis eius aut veniam libero repudiandae a reiciendis explicabo, consectetur fuga? Perspiciatis sed iusto inventore aliquid sapiente ducimus blanditiis. Quaerat enim ad itaque voluptates eveniet animi unde optio corrupti accusamus. Rem atque maiores error?</p>
                 <div id="projects-box">
                     <div class="card">
-                        <img src="./assets/images/teacozy.png" alt="site teacozy" width="200" height="200">
-                        <div class="fadedbox">
-                            <i class="bi bi-search title text"></i>
-                        </div>
+                        <a href="https://primalprod.fr/one-page/apps/teacozy/">
+                            <img src="./assets/images/teacozy.png" alt="site teacozy" width="200" height="200">
+                            <div class="fadedbox">
+                                <i class="bi bi-search title text"><br>Flexbox</i>
+                            </div>
+                        </a>
                     </div>
                     <div class="card">
-                        <img src="" alt="" width="200" height="200">
-                        <div class="fadedbox">
-                            <i class="bi bi-search title text"></i>
-                        </div>
+                        <a href="">
+                            <img src="" alt="" width="200" height="200">
+                            <div class="fadedbox">
+                                <i class="bi bi-search title text"><br></i>
+                            </div>
+                        </a>
                     </div>
                     <div class="card">
-                        <img src="" alt="" width="200" height="200">
-                        <div class="fadedbox">
-                            <i class="bi bi-search title text"></i>
-                        </div>
+                        <a href="">
+                            <img src="" alt="" width="200" height="200">
+                            <div class="fadedbox">
+                                <i class="bi bi-search title text"><br></i>
+                            </div>
+                        </a>
                     </div>
                     <div class="card">
-                        <img src="" alt="" width="200" height="200">
-                        <div class="fadedbox">
-                            <i class="bi bi-search title text"></i>
-                        </div>
+                        <a href="">
+                            <img src="" alt="" width="200" height="200">
+                            <div class="fadedbox">
+                                <i class="bi bi-search title text"><br></i>
+                            </div>
+                        </a>
                     </div>
                     <div class="card">
-                        <img src="" alt="" width="200" height="200">
-                        <div class="fadedbox">
-                            <i class="bi bi-search title text"></i>
-                        </div>
+                        <a href="">
+                            <img src="" alt="" width="200" height="200">
+                            <div class="fadedbox">
+                                <i class="bi bi-search title text"><br></i>
+                            </div>
+                        </a>
                     </div>
                     <div class="card" id="card-end">
                         <img src="./assets/images/suite.svg" alt="etiquette suite prochainement">
