@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./assets/images/favicon.png">
-    <title>Freelance | Hugo Delbegue</title>
+    <title>Développeur web | Hugo Delbegue</title>
 </head>
 
 <body>
@@ -67,14 +67,12 @@
     </header>
     <section id="presentation">
         <div class="boxmodel">
-            <h1>Hugo Delbegue . Freelance</h1>
+            <h1>Hugo DELBEGUE | Développeur web</h1>
+            <h2 style="font-variant-caps: all-small-caps;">Freelance</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, provident laborum, sed officia pariatur
                 architecto deserunt laudantium numquam doloremque distinctio assumenda modi, debitis dolore voluptate aut
                 eos atque corrupti ea minus nulla quasi tempora et cum eligendi? Dolores numquam hic pariatur minima qui
-                facilis maxime, consectetur enim tenetur ipsa unde at, dolorum ratione non? Error labore, quisquam placeat
-                aut ad eaque! Expedita, tenetur et enim quam amet saepe non, in commodi vero est adipisci quisquam, repellat
-                odio id quas. Harum a maxime ipsa esse cupiditate numquam consequuntur illo dicta architecto, inventore,
-                quaerat fugiat. Illo eligendi obcaecati corrupti libero eos neque?</p>
+                facilis maxime ?</p>
         </div>
     </section>
     <hr class="line-body">
@@ -85,7 +83,7 @@
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, aspernatur laborum nihil maxime tenetur temporibus cum asperiores illo consectetur, recusandae distinctio dolorum odit quam voluptates labore perferendis debitis quasi fugiat!</p>
             <hr class="line-content">
             <div id="projects-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit rem voluptates illo qui, dicta esse doloremque perspiciatis eius aut veniam libero repudiandae a reiciendis explicabo, consectetur fuga? Perspiciatis sed iusto inventore aliquid sapiente ducimus blanditiis. Quaerat enim ad itaque voluptates eveniet animi unde optio corrupti accusamus. Rem atque maiores error?</p>
+                <div id="projects-text"></div>
                 <div id="projects-box">
                     <div class="card">
                         <a href="./projects/teacozy/">
@@ -96,7 +94,15 @@
                         </a>
                     </div>
                     <div class="card">
-                        <a href="">
+                        <a id="text1">
+                            <img class="img-project" src="./assets/images/my-links.png" alt="sit my-links">
+                            <div class="fadedbox">
+                                <i class="bi bi-search title text"><br>My links<br>en construction</i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a id="text2">
                             <img class="img-project" src="" alt="">
                             <div class="fadedbox">
                                 <i class="bi bi-search title text"><br></i>
@@ -104,15 +110,7 @@
                         </a>
                     </div>
                     <div class="card">
-                        <a href="">
-                            <img class="img-project" src="" alt="">
-                            <div class="fadedbox">
-                                <i class="bi bi-search title text"><br></i>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a href="">
+                        <a id="text3">
                             <img class="img-project" src="" alt="">
                             <div class="fadedbox">
                                 <i class="bi bi-search title text"><br></i>

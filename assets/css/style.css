@@ -138,7 +138,7 @@ header {
 }
 
 section {
-    padding-top: 2em;
+    padding-top: 3em;
     padding-bottom: 5em;
 }
 
@@ -278,7 +278,12 @@ section#presentation {
 
 section#presentation div {
     padding: 11% 20px;
-    max-width: 800px;
+    max-width: 950px;
+}
+
+section#presentation p {
+    font-size: 25px;
+    line-height: 2;
 }
 
 
@@ -293,13 +298,12 @@ section#projects {
 
 section div#projects-content {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     padding: 5em 2em 2em 2em;
     column-gap: 4.5em;
 }
 
 section div#projects-content p {
-    width: 70%;
     text-align: right;
 }
 
@@ -308,6 +312,7 @@ section div div#projects-box {
     justify-content: center;
     gap: 2em;
     flex-wrap: wrap;
+    min-width: 532px;
 }
 
 section div div#projects-box div.card {
@@ -398,6 +403,10 @@ section div div#projects-box div#card-end.card img:hover {
 /* about */
 
 
+
+section#about {
+    padding-top: 1.5em;
+}
 
 section div p img.avatar {
     float: left;
