@@ -84,47 +84,68 @@
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, aspernatur laborum nihil maxime tenetur temporibus cum asperiores illo consectetur, recusandae distinctio dolorum odit quam voluptates labore perferendis debitis quasi fugiat!</p>
             <hr class="line-content">
             <div id="projects-content">
-                <div id="projects-text"></div>
                 <div id="projects-box">
-                    <div class="card">
-                        <a href="./projects/teacozy/">
+                <div class="popup-projects" id="text1">
+                        <div class="popup">
+                            <i class="bi bi-x-lg close"></i>
+                            <p>1Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo impedit quaerat sunt a quam officia fugit id unde totam magnam nisi fugiat illum, voluptates saepe suscipit. Unde ullam repellat assumenda eaque beatae placeat expedita deleniti natus sed laboriosam obcaecati iure optio tempora eos ipsa neque quisquam soluta qui, consectetur quas.</p>
+                        </div>
+                    </div>
+                    <div class="card" onclick="clickProjects(1)">
+                        <!-- <a href="./projects/teacozy/"> -->
                             <img class="img-project" src="./assets/images/teacozy.png" alt="site teacozy">
                             <div class="fadedbox">
                                 <i class="bi bi-search title text"><br>Flexbox<br>site entrainement</i>
                             </div>
                         </a>
                     </div>
-                    <div class="card">
-                        <a id="text1">
-                            <img class="img-project" src="./assets/images/my-links.png" alt="sit my-links">
-                            <div class="fadedbox">
-                                <i class="bi bi-search title text"><br>My links<br>en construction</i>
-                            </div>
-                        </a>
+                    <div class="popup-projects" id="text2">
+                        <div class="popup">
+                            <i class="bi bi-x-lg close"></i>
+                            <p>2Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo impedit quaerat sunt a quam officia fugit id unde totam magnam nisi fugiat illum, voluptates saepe suscipit. Unde ullam repellat assumenda eaque beatae placeat expedita deleniti natus sed laboriosam obcaecati iure optio tempora eos ipsa neque quisquam soluta qui, consectetur quas.</p>
+                        </div>
                     </div>
-                    <div class="card">
-                        <a id="text2">
-                            <img class="img-project" src="" alt="">
-                            <div class="fadedbox">
-                                <i class="bi bi-search title text"><br></i>
-                            </div>
-                        </a>
+                    <div class="card" onclick="clickProjects(2)">
+                        <img class="img-project" src="./assets/images/my-links.png" alt="sit my-links">
+                        <div class="fadedbox">
+                            <i class="bi bi-search title text"><br>My links<br>en construction</i>
+                        </div>
                     </div>
-                    <div class="card">
-                        <a id="text3">
-                            <img class="img-project" src="" alt="">
-                            <div class="fadedbox">
-                                <i class="bi bi-search title text"><br></i>
-                            </div>
-                        </a>
+                    <div class="popup-projects" id="text3">
+                        <div class="popup">
+                            <i class="bi bi-x-lg close"></i>
+                            <p>3Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo impedit quaerat sunt a quam officia fugit id unde totam magnam nisi fugiat illum, voluptates saepe suscipit. Unde ullam repellat assumenda eaque beatae placeat expedita deleniti natus sed laboriosam obcaecati iure optio tempora eos ipsa neque quisquam soluta qui, consectetur quas.</p>
+                        </div>
                     </div>
-                    <div class="card">
-                        <a href="">
-                            <img class="img-project" src="" alt="">
-                            <div class="fadedbox">
-                                <i class="bi bi-search title text"><br></i>
-                            </div>
-                        </a>
+                    <div class="card" onclick="clickProjects(3)">
+                        <img class="img-project" src="" alt="">
+                        <div class="fadedbox">
+                            <i class="bi bi-search title text"><br></i>
+                        </div>
+                    </div>
+                    <div class="popup-projects" id="text4">
+                        <div class="popup">
+                            <i class="bi bi-x-lg close"></i>
+                            <p>4Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo impedit quaerat sunt a quam officia fugit id unde totam magnam nisi fugiat illum, voluptates saepe suscipit. Unde ullam repellat assumenda eaque beatae placeat expedita deleniti natus sed laboriosam obcaecati iure optio tempora eos ipsa neque quisquam soluta qui, consectetur quas.</p>
+                        </div>
+                    </div>
+                    <div class="card" onclick="clickProjects(4)">
+                        <img class="img-project" src="" alt="">
+                        <div class="fadedbox">
+                            <i class="bi bi-search title text"><br></i>
+                        </div>
+                    </div>
+                    <div class="popup-projects" id="text5">
+                        <div class="popup">
+                            <i class="bi bi-x-lg close"></i>
+                            <p>5Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo impedit quaerat sunt a quam officia fugit id unde totam magnam nisi fugiat illum, voluptates saepe suscipit. Unde ullam repellat assumenda eaque beatae placeat expedita deleniti natus sed laboriosam obcaecati iure optio tempora eos ipsa neque quisquam soluta qui, consectetur quas.</p>
+                        </div>
+                    </div>
+                    <div class="card" onclick="clickProjects(5)">
+                        <img class="img-project" src="" alt="">
+                        <div class="fadedbox">
+                            <i class="bi bi-search title text"><br></i>
+                        </div>
                     </div>
                     <div class="card" id="card-end">
                         <img src="./assets/images/suite.svg" alt="etiquette suite prochainement">

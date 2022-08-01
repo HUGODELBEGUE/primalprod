@@ -3,8 +3,8 @@
 const elevation = document.querySelector("header");
 const title = document.querySelector(".anchor");
 
-window.addEventListener("scroll", function() {
-  if(this.window.scrollY > title.offsetTop) {
+window.addEventListener("scroll", function () {
+  if (this.window.scrollY > title.offsetTop) {
     elevation.classList.add("elevation");
   } else {
     elevation.classList.remove("elevation");
@@ -26,22 +26,56 @@ bouton.addEventListener("click", () => {
   }
 });
 
-// Switch des textes pour les projets
+// Ouverture popups projets
 
-var text1 = document.getElementById("text1");
-var text2 = document.getElementById("text2");
-var text3 = document.getElementById("text3");
-var text = document.getElementById("projects-text");
+function clickProjects(n) {
+  if (n === 1) {
+    console.log("hello1")
+    document.querySelector("#text1").style.display = "flex";
+  } else if (n === 2) {
+    console.log("hello2")
+    document.querySelector("#text2").style.display = "flex";
+  } else if (n === 3) {
+    console.log("hello3")
+    document.querySelector("#text3").style.display = "flex";
+  } else if (n === 4) {
+    console.log("hello4")
+    document.querySelector("#text4").style.display = "flex";
+  } else if (n === 5) {
+    console.log("hello5")
+    document.querySelector("#text5").style.display = "flex";
+  } else {
+    window.open('./')
+  }
+}
 
-text1.addEventListener("click", function () {
-  text.innerHTML = "<p>Consectetur fuga? Perspiciatis sed iusto inventore aliquid sapiente ducimus blanditiis. Quaerat enim ad itaque voluptates eveniet animi unde optio corrupti accusamus. Rem atque maiores error?</p>"
-});
-text2.addEventListener("click", function () {
-  text.innerHTML = "<p>20351514 6513212131 32120.206164684564 534654131 63435135 321.21.0216165465 1351654</p>"
-});
-text3.addEventListener("click", function () {
-  text.innerHTML = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit rem voluptates illo qui, dicta esse doloremque perspiciatis eius aut veniam libero repudiandae a reiciendis explicabo, consectetur fuga? Perspiciatis sed iusto inventore aliquid sapiente ducimus blanditiis. Quaerat enim ad itaque voluptates eveniet animi unde optio corrupti accusamus. Rem atque maiores error?</p>";
-});
+// Fermeture popups projects
+
+var cross = document.querySelectorAll(".close")
+var popups = document.querySelectorAll(".popup-projects")
+for (var i = 0; i < cross.length; i++) {
+  var cros = cross[i];
+  cros.addEventListener("click", function () {
+    for (var i = 0; i < popups.length; i++) {
+      var popup = popups[i];
+      popup.style.display = "none";
+    }
+  });
+}
+
+
+
+
+// window.addEventListener("scroll", function () {
+//   for (var i = 0; i < popups.length; i++) {
+//     var card = popups[i];
+//     if (window.scrollY < 200) {
+//       console.log("hello")
+//       card.style.display = "none";
+//     } 
+
+//   }
+// })
 
 
 
