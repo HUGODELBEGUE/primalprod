@@ -53,6 +53,11 @@
     background-color: rgba(223, 223, 223, 0.85);
 }
 
+.anchor {
+    padding: 48px 0 0 0 !important;
+    
+}
+
 
 
 
@@ -65,13 +70,13 @@
 
 h1 {
     font-family: var(--first-font);
-    font-size: 50px;
+    font-size: clamp(30px, 3vw, 50px);
     letter-spacing: var(--letter-spacing-text);
 }
 
 h2 {
     font-family: var(--first-font);
-    font-size: 40px;
+    font-size: clamp(20px, 3vw, 40px);;
     letter-spacing: var(--letter-spacing-text);
     margin: 10px 0 -20px 0;
 }
@@ -103,6 +108,10 @@ i {
     margin-right: 7.5px;
 }
 
+img {
+    outline: none !important;
+}
+
 
 
 
@@ -125,7 +134,6 @@ body {
     margin: 0;
     text-align: center;
     background-color: var(--primary-body-color);
-    /* background: linear-gradient(var(--primary-body-color), 0%, rgba(237, 232, 209, 0.75) 75%) */
 }
 
 header {
@@ -134,7 +142,13 @@ header {
     z-index: 1;
     height: 48px;
     background-color: var(--primary-body-color);
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.elevation {
+    transition: all .15s;
     box-shadow: var(--box-shadow-2dp);
+    border-bottom: hidden;
 }
 
 section {
@@ -305,6 +319,10 @@ section div#projects-content {
 
 section div#projects-content p {
     text-align: right;
+}
+
+section div#projects-text p {
+    transition: all 3s;
 }
 
 section div div#projects-box {

@@ -67,6 +67,7 @@
     </header>
     <section id="presentation">
         <div class="boxmodel">
+            <div class="anchor"></div>
             <h1>Hugo DELBEGUE | Développeur web</h1>
             <h2 style="font-variant-caps: all-small-caps;">Freelance</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, provident laborum, sed officia pariatur

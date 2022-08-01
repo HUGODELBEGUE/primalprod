@@ -1,3 +1,17 @@
+// Elevation du header
+
+const elevation = document.querySelector("header");
+const title = document.querySelector(".anchor");
+
+window.addEventListener("scroll", function() {
+  if(this.window.scrollY > title.offsetTop) {
+    elevation.classList.add("elevation");
+  } else {
+    elevation.classList.remove("elevation");
+  }
+})
+
+
 // Changement d'icon ouverture/fermeture de la navbar
 
 var bouton = document.querySelector("#icon-menu");
@@ -19,13 +33,13 @@ var text2 = document.getElementById("text2");
 var text3 = document.getElementById("text3");
 var text = document.getElementById("projects-text");
 
-text1.addEventListener("mouseover", function () {
+text1.addEventListener("click", function () {
   text.innerHTML = "<p>Consectetur fuga? Perspiciatis sed iusto inventore aliquid sapiente ducimus blanditiis. Quaerat enim ad itaque voluptates eveniet animi unde optio corrupti accusamus. Rem atque maiores error?</p>"
 });
-text2.addEventListener("mouseover", function () {
+text2.addEventListener("click", function () {
   text.innerHTML = "<p>20351514 6513212131 32120.206164684564 534654131 63435135 321.21.0216165465 1351654</p>"
 });
-text3.addEventListener("mouseover", function () {
+text3.addEventListener("click", function () {
   text.innerHTML = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit rem voluptates illo qui, dicta esse doloremque perspiciatis eius aut veniam libero repudiandae a reiciendis explicabo, consectetur fuga? Perspiciatis sed iusto inventore aliquid sapiente ducimus blanditiis. Quaerat enim ad itaque voluptates eveniet animi unde optio corrupti accusamus. Rem atque maiores error?</p>";
 });
 
