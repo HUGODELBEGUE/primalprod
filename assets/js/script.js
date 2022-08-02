@@ -29,21 +29,27 @@ bouton.addEventListener("click", () => {
 // Ouverture popups projets
 
 function clickProjects(n) {
+  var overlay = document.getElementById("overlay");
   if (n === 1) {
     console.log("hello1")
     document.querySelector("#text1").style.display = "flex";
+    overlay.style.display = "block";
   } else if (n === 2) {
     console.log("hello2")
     document.querySelector("#text2").style.display = "flex";
+    overlay.style.display = "block";
   } else if (n === 3) {
     console.log("hello3")
     document.querySelector("#text3").style.display = "flex";
+    overlay.style.display = "block";
   } else if (n === 4) {
     console.log("hello4")
     document.querySelector("#text4").style.display = "flex";
+    overlay.style.display = "block";
   } else if (n === 5) {
     console.log("hello5")
     document.querySelector("#text5").style.display = "flex";
+    overlay.style.display = "block";
   } else {
     window.open('./')
   }
@@ -59,6 +65,7 @@ for (var i = 0; i < cross.length; i++) {
     for (var i = 0; i < popups.length; i++) {
       var popup = popups[i];
       popup.style.display = "none";
+      overlay.style.display = "none";
     }
   });
 }

@@ -331,7 +331,6 @@ section div#projects-content p {
     align-items: center;
     left: 0;
     z-index: 3;
-    transition: 200ms;
 }
 
 .popup {
@@ -339,9 +338,10 @@ section div#projects-content p {
     height: 500px;
     background-color: var(--primary-body-color);
     border-radius: 10px;
-    position: relative;
+    position: fixed;
     padding: 20px;
     border: 2px solid rgba(0, 0, 0, 0.2);
+    top: 30%;
 }
 
 .close {
@@ -356,6 +356,19 @@ section div#projects-content p {
     font-size: 20px;
     border: 2px solid rgba(0, 0, 0, 0.2);
     padding: 3px;
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+    transition: all 1s;
+    opacity: 1;
 }
 
 section div div#projects-box {
@@ -466,6 +479,7 @@ section div p img.avatar {
     position: relative;
     bottom: 2em;
     right: 1em;
+    z-index: -1;
 }
 
 
