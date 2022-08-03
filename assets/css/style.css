@@ -335,7 +335,6 @@ section div#projects-content p {
 
 .popup {
     width: 500px;
-    height: 500px;
     background-color: var(--primary-body-color);
     border-radius: 10px;
     position: fixed;
