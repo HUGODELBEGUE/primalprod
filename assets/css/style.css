@@ -152,8 +152,8 @@ header {
 }
 
 section {
-    padding-top: 3em;
-    padding-bottom: 5em;
+    padding: 3em 0;
+
 }
 
 footer {
