@@ -64,6 +64,10 @@
     
 }
 
+.display_items {
+    display: none !important;
+}
+
 
 
 
@@ -355,6 +359,13 @@ section div#projects-content p {
     font-size: 20px;
     border: 2px solid rgba(0, 0, 0, 0.2);
     padding: 3px;
+}
+
+section div.button {
+    display: none;
+    justify-content: center;
+    gap: 100%;
+    margin: 2em 4em;
 }
 
 #overlay {

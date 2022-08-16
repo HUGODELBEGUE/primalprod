@@ -152,6 +152,14 @@
                     </div>
                 </div>
             </div>
+            <div class="button">
+                <div id="button_left">
+                    <img src="./assets/images/arrow_left.svg" alt="">
+                </div>
+                <div id="button_right">
+                    <img src="./assets/images/arrow_right.svg" alt="">
+                </div>
+            </div>
             <div id="overlay"></div>
         </div>
     </section>

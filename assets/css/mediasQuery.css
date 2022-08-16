@@ -44,7 +44,8 @@
 
     section div#projects-content {
         display: block;
-        padding: 0 2em 2em 2em;
+        padding: 0 2em;
+        overflow: hidden;
     }
 
     section div#projects-content p {
@@ -55,12 +56,16 @@
     section div div#projects-box {
         justify-content: flex-start;
         flex-wrap: nowrap;
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
-        scroll-snap-align: start;
-        scrollbar-color: var(--button-color) rgba(0, 0, 0, .1);
-        scrollbar-width: thin;
+        /*overflow-x: scroll;*/
+        /*scroll-snap-type: x mandatory;*/
+        /*scroll-snap-align: start;*/
+        /*scrollbar-color: var(--button-color) rgba(0, 0, 0, .1);*/
+        /*scrollbar-width: thin;*/
         margin-top: 6em;
+    }
+
+    section div.button {
+        display: flex;
     }
 
     section div div#projects-box::-webkit-scrollbar-track {
