@@ -365,7 +365,8 @@ section div.button {
     display: none;
     justify-content: center;
     gap: 100%;
-    margin: 2em 4em;
+    margin: 0 4em 2em 4em;
+    user-select: none;
 }
 
 #overlay {
@@ -384,7 +385,7 @@ section div.button {
 section div div#projects-box {
     display: flex;
     justify-content: center;
-    gap: 2em;
+    gap: 20px;
     flex-wrap: wrap;
     min-width: 532px;
 }
