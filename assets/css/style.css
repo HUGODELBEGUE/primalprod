@@ -385,9 +385,7 @@ section div.button {
 section div div#projects-box {
     display: flex;
     justify-content: center;
-    gap: 20px;
     flex-wrap: wrap;
-    min-width: 532px;
 }
 
 section div div#projects-box div.card {
@@ -395,14 +393,14 @@ section div div#projects-box div.card {
     min-width: 250px;
     height: 250px;
     position: relative;
-    overflow: hidden;
+    margin: 20px;
     text-align: center;
     box-shadow: var(--box-shadow-4dp);
 }
 
 section div div#projects-box div.card img {
     width: 100%;
-    height: 250px;
+    height: 100%;
 }
 
 section div div#projects-box div.card .fadedbox {
@@ -418,7 +416,7 @@ section div div#projects-box div.card .fadedbox {
     transition: all 300ms ease-out;
     opacity: 0;
     width: 100%;
-    height: 250px;
+    height: 100%;
     padding: 80px 20px;
 }
 

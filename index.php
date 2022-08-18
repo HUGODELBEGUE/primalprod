@@ -85,7 +85,6 @@
             temporibus cum asperiores illo consectetur, recusandae distinctio dolorum odit quam voluptates labore
             perferendis debitis quasi fugiat!</p>
         <hr class="line-content">
-        <span id="width"></span>
         <div id="projects-content">
             <div class="popup-projects" id="text1">
                 <div class="popup">

@@ -43,14 +43,6 @@
         margin-bottom: 2em;
     }
 
-    section div div#projects-box div.card img, .img-project{
-        height: 400px;
-    }
-
-    .fadedbox {
-        height: 400px!important;
-    }
-
     section#projects, section#contact {
         padding-top: 2em;
     }
@@ -58,7 +50,6 @@
     section div#projects-content {
         display: block;
         padding: 0 2em;
-        overflow: hidden;
     }
 
     section div#projects-content p {
@@ -136,7 +127,6 @@
 
     section div#projects-content {
         padding: 0;
-        overflow: hidden;
         width: 200px;
         margin: 0 auto;
     }

@@ -84,23 +84,16 @@ const projectsBox = document.getElementById('projects-box');
 const button_d = document.getElementById('button_right');
 const button_g = document.getElementById('button_left');
 let cards = document.getElementsByClassName('card');
-let p = 0;
 document.body.onload = () => {
     buttonsDisplay();
 }
-
-// resize = () => {
-//     let widthWindow = window.innerWidth;
-//     if (widthWindow < 610) {
-//         // location.reload();
-//         projectsBox.style.backgroundColor = "blue";
-//     }
-//     if (widthWindow > 610){
-//         projectsBox.style.backgroundColor = "initial";
-//     }
-// }
-// window.onresize = resize;
-
+window.addEventListener('resize', windowResize = () => {
+    if (window.innerWidth > 610) {
+        return 2;
+    } else if (window.innerWidth < 610) {
+        return 1;
+    }
+})
 /*
 let child = [].slice.call(projectsBox.children)
 let root = document.createElement('div')
@@ -114,17 +107,21 @@ debugger
 */
 
 // Dimension des cards du carousel
-let ratio = cards.length / 2;
+let p = 0;
+let itemVisible = windowResize();
+let ratio = cards.length / itemVisible;
 projectsBox.style.width = (ratio * 100) + "%";
 for (let i = 0; i < cards.length; i++) {
-    cards[i].style.width = ((100 / 2) / ratio) + "%";
+    cards[i].style.width = ((100 / itemVisible) / ratio) + "%";
 }
-
+if (window.innerWidth > 1080){
+    projectsBox.style.transform = "none";
+}
 button_d.onclick = () => {
     p--;
     let x = p * 100 / cards.length;
     console.log(p);
-    projectsBox.style.transform = "translateX(" + x + "%)";
+    projectsBox.style.transform = "translate3d(" + x + "%, 0, 0)";
     projectsBox.style.transition = "all 0.5s";
     buttonsDisplay();
 }
@@ -132,7 +129,7 @@ button_g.onclick = () => {
     p++;
     let x = p * 100 / cards.length;
     console.log(p);
-    projectsBox.style.transform = "translateX(" + x + "%)";
+    projectsBox.style.transform = "translate3d(" + x + "%, 0, 0)";
     projectsBox.style.transition = "all 0.5s";
     buttonsDisplay();
 }
