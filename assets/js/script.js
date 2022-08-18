@@ -1,4 +1,4 @@
-// Elevation du header
+/* Elevation du header */
 
 const elevation = document.querySelector("header");
 const title = document.querySelector(".anchor");
@@ -10,7 +10,7 @@ window.addEventListener("scroll", () => {
     }
 })
 
-// Changement d'icon && fermeture automatique de la navbar
+/* Changement d'icon && fermeture automatique de la navbar */
 
 const bouton = document.querySelector("#icon-menu");
 const icon = document.querySelector("#icon-menu > i");
@@ -34,10 +34,10 @@ window.addEventListener("scroll", () => {
     }
 })
 
-// Ouverture popups projets
+/* Ouverture popups projets */
 
 clickProjects = (n) => {
-    switch (n){
+    switch (n) {
         case 1:
             document.querySelector("#text1").style.display = "flex";
             overlay.style.display = "block";
@@ -63,7 +63,7 @@ clickProjects = (n) => {
     }
 }
 
-// Fermeture popups projects
+/* Fermeture popups projects */
 
 const cross = document.querySelectorAll(".close")
 const popups = document.querySelectorAll(".popup-projects")
@@ -78,13 +78,17 @@ for (let i = 0; i < cross.length; i++) {
     });
 }
 
-// Carousel
+/* Carousel */
 
 const projectsBox = document.getElementById('projects-box');
 const button_d = document.getElementById('button_right');
 const button_g = document.getElementById('button_left');
-let widthElement = document.getElementById('cardWidth').offsetWidth;
+let cards = document.getElementsByClassName('card');
 let p = 0;
+document.body.onload = () => {
+    buttonsDisplay();
+}
+
 // resize = () => {
 //     let widthWindow = window.innerWidth;
 //     if (widthWindow < 610) {
@@ -96,25 +100,41 @@ let p = 0;
 //     }
 // }
 // window.onresize = resize;
-document.body.onload = () => {
+
+/*
+let child = [].slice.call(projectsBox.children)
+let root = document.createElement('div')
+root.setAttribute('class', 'hello')
+projectsBox.appendChild(root)
+child.forEach((childen) => {
+    root.appendChild(childen)
+})
+console.log(root)
+debugger
+*/
+
+// Dimension des cards du carousel
+let ratio = cards.length / 2;
+projectsBox.style.width = (ratio * 100) + "%";
+for (let i = 0; i < cards.length; i++) {
+    cards[i].style.width = ((100 / 2) / ratio) + "%";
+}
+
+button_d.onclick = () => {
+    p--;
+    let x = p * 100 / cards.length;
+    console.log(p);
+    projectsBox.style.transform = "translateX(" + x + "%)";
+    projectsBox.style.transition = "all 0.5s";
     buttonsDisplay();
 }
-button_d.onclick = () => {
-    if (p > -5) {
-        p--;
-        console.log(widthElement);
-        projectsBox.style.transform = "translateX(" + p * (widthElement + 20) + "px)";
-        projectsBox.style.transition = "all 0.5s";
-        buttonsDisplay();
-    }
-}
 button_g.onclick = () => {
-    if (p < 0) {
-        p++;
-        projectsBox.style.transform = "translateX(" + p * (widthElement + 20) + "px)";
-        projectsBox.style.transition = "all 0.5s";
-        buttonsDisplay();
-    }
+    p++;
+    let x = p * 100 / cards.length;
+    console.log(p);
+    projectsBox.style.transform = "translateX(" + x + "%)";
+    projectsBox.style.transition = "all 0.5s";
+    buttonsDisplay();
 }
 buttonsDisplay = () => {
     if (p === -5) {

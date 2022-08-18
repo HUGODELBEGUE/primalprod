@@ -39,20 +39,15 @@
     }
 
     section div div#projects-box div.card {
-        width: 400px;
         height: 400px;
-        flex: 1 0 400px;
         margin-bottom: 2em;
     }
 
     section div div#projects-box div.card img, .img-project{
-        aspect-ratio: auto 400 / 400;
-        width: 400px;
         height: 400px;
     }
 
     .fadedbox {
-        width: 400px!important;
         height: 400px!important;
     }
 
@@ -155,10 +150,9 @@
     }
 
     section div div#projects-box .card, .fadedbox, .img-project {
-        aspect-ratio: auto 200 / 200;
-        width: 200px !important;
+        min-width: auto !important;
+        width: 100% !important;
         height: 200px !important;
-        flex: 1 0 200px !important;
     }
 
     section div p img.avatar {
