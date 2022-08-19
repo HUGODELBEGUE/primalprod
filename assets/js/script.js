@@ -87,36 +87,42 @@ let cards = document.getElementsByClassName('card');
 document.body.onload = () => {
     buttonsDisplay();
 }
-window.addEventListener('resize', windowResize = () => {
-    if (window.innerWidth > 610) {
-        return 2;
-    } else if (window.innerWidth < 610) {
-        return 1;
-    }
-})
-/*
-let child = [].slice.call(projectsBox.children)
-let root = document.createElement('div')
-root.setAttribute('class', 'hello')
-projectsBox.appendChild(root)
-child.forEach((childen) => {
-    root.appendChild(childen)
-})
-console.log(root)
-debugger
-*/
 
 // Dimension des cards du carousel
-let p = 0;
-let itemVisible = windowResize();
-let ratio = cards.length / itemVisible;
-projectsBox.style.width = (ratio * 100) + "%";
-for (let i = 0; i < cards.length; i++) {
-    cards[i].style.width = ((100 / itemVisible) / ratio) + "%";
-}
-if (window.innerWidth > 1080){
+window.addEventListener('resize', windowResize = () => {
+    if (window.innerWidth > 610) {
+        let itemVisible = 2;
+        let ratio = cards.length / itemVisible;
+        projectsBox.style.width = (ratio * 100) + "%";
+        for (let i = 0; i < cards.length; i++) {
+            cards[i].style.width = ((100 / itemVisible) / ratio) + "%";
+            cards[i].style.height = "auto";
+            cards[i].style.aspectRatio = "1 / 1";
+        }
+    } else if (window.innerWidth < 610) {
+        let itemVisible = 1;
+        let ratio = cards.length / itemVisible;
+        projectsBox.style.width = (ratio * 100) + "%";
+        for (let i = 0; i < cards.length; i++) {
+            cards[i].style.width = ((100 / itemVisible) / ratio) + "%";
+            cards[i].style.height = "auto";
+            cards[i].style.aspectRatio = "1 / 1";
+        }
+    }
+})
+windowResize();
+// let itemVisible = 2;
+// let ratio = cards.length / itemVisible;
+// projectsBox.style.width = (ratio * 100) + "%";
+// for (let i = 0; i < cards.length; i++) {
+//     cards[i].style.width = ((100 / itemVisible) / ratio) + "%";
+//     cards[i].style.height = "auto";
+//     cards[i].style.aspectRatio = "1 / 1";
+// }
+if (window.innerWidth > 1080) {
     projectsBox.style.transform = "none";
 }
+let p = 0;
 button_d.onclick = () => {
     p--;
     let x = p * 100 / cards.length;

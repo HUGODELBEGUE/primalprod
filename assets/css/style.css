@@ -319,6 +319,7 @@ section div#projects-content {
     align-items: flex-start;
     padding: 5em 2em 2em 2em;
     column-gap: 4.5em;
+    overflow: hidden;
 }
 
 section div#projects-content p {
@@ -391,23 +392,32 @@ section div div#projects-box {
 section div div#projects-box div.card {
     cursor: pointer;
     min-width: 250px;
-    height: 250px;
     position: relative;
     margin: 20px;
     text-align: center;
     box-shadow: var(--box-shadow-4dp);
+    background-size: cover;
+}
+
+.teacozy {
+    background-image: url("../images/teacozy.png");
+}
+
+.mylinks {
+    background-image: url("../images/my-links.png");
 }
 
 section div div#projects-box div.card img {
     width: 100%;
     height: 100%;
+    aspect-ratio: 1 / 1;
 }
 
 section div div#projects-box div.card .fadedbox {
     background-color: #666666;
-    position: absolute;
-    top: 0;
-    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #fff;
     -webkit-transition: all 300ms ease-out;
     -moz-transition: all 300ms ease-out;

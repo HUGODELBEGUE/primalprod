@@ -39,8 +39,7 @@
     }
 
     section div div#projects-box div.card {
-        height: 400px;
-        margin-bottom: 2em;
+        min-width: 0;
     }
 
     section#projects, section#contact {
@@ -127,7 +126,6 @@
 
     section div#projects-content {
         padding: 0;
-        width: 200px;
         margin: 0 auto;
     }
 
@@ -139,10 +137,8 @@
         width: clamp(220px, 80vw, 520px);
     }
 
-    section div div#projects-box .card, .fadedbox, .img-project {
-        min-width: auto !important;
-        width: 100% !important;
-        height: 200px !important;
+    section div div#projects-box .card, .fadedbox {
+        min-width: 0 !important;
     }
 
     section div p img.avatar {

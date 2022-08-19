@@ -132,35 +132,30 @@
                 </div>
             </div>
             <div id="projects-box">
-                <div class="card" onclick="clickProjects(1)" id="cardWidth">
+                <div class="card teacozy" onclick="clickProjects(1)" id="cardWidth">
                     <!-- <a href="./projects/teacozy/"> -->
-                    <img class="img-project" src="./assets/images/teacozy.png" alt="site teacozy">
                     <div class="fadedbox">
                         <i class="bi bi-search title text"><br>Flexbox<br>site entrainement</i>
                     </div>
 <!--                    </a>-->
                 </div>
 
-                <div class="card" onclick="clickProjects(2)">
-                    <img class="img-project" src="./assets/images/my-links.png" alt="sit my-links">
+                <div class="card mylinks" onclick="clickProjects(2)">
                     <div class="fadedbox">
                         <i class="bi bi-search title text"><br>My links<br>en construction</i>
                     </div>
                 </div>
                 <div class="card" onclick="clickProjects(3)">
-                    <img class="img-project" src="" alt="">
                     <div class="fadedbox">
                         <i class="bi bi-search title text"><br></i>
                     </div>
                 </div>
                 <div class="card" onclick="clickProjects(4)">
-                    <img class="img-project" src="" alt="">
                     <div class="fadedbox">
                         <i class="bi bi-search title text"><br></i>
                     </div>
                 </div>
                 <div class="card" onclick="clickProjects(5)">
-                    <img class="img-project" src="" alt="">
                     <div class="fadedbox">
                         <i class="bi bi-search title text"><br></i>
                     </div>
