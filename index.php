@@ -231,8 +231,8 @@
             </form>
             <div id="form-right">
                 <span>
-                    <a class="legende" href="mailto:hugodelbegue@gmail.com">
-                        <i class="bi bi-envelope iconlegende"></i>
+                    <a class="legende iconform" href="mailto:hugodelbegue@gmail.com">
+                        <i class="logo_mail iconlegende"></i>
                         <div>
                             <div>hugodelbegue@gmail.com</div>
                             <div class="logo-label">Email</div>
@@ -241,8 +241,8 @@
                 </span>
                 <hr class="line-form_right">
                 <span>
-                    <a class="legende" href="tel:0638387707">
-                        <i class="bi bi-phone iconlegende"></i>
+                    <a class="legende iconform" href="tel:0638387707">
+                        <i class="logo_phone iconlegende"></i>
                         <div>
                             <div>06 38 38 77 07</div>
                             <div class="logo-label">Téléphone</div>
@@ -251,8 +251,8 @@
                 </span>
                 <hr class="line-form_right">
                 <span>
-                    <a class="legende" href="">
-                        <i class="bi bi-instagram iconlegende"></i>
+                    <a class="legende iconform" href="">
+                        <i class="logo_instagram iconlegende"></i>
                         <div>
                             <div>PrimalProd</div>
                             <div class="logo-label">Instagram</div>
@@ -261,8 +261,8 @@
                 </span>
                 <hr class="line-form_right">
                 <span>
-                    <a class="legende" href="https://fr.linkedin.com/in/hugo-delbegue/">
-                        <i class="bi bi-linkedin iconlegende"></i>
+                    <a class="legende iconform" href="https://fr.linkedin.com/in/hugo-delbegue/">
+                        <i class="logo_linkedin iconlegende"></i>
                         <div>
                             <div>HugoDelbegue</div>
                             <div class="logo-label">Linkedin</div>
@@ -271,8 +271,8 @@
                 </span>
                 <hr class="line-form_right">
                 <span>
-                    <a class="legende" href="">
-                        <i class="bi bi-github iconlegende"></i>
+                    <a class="legende iconform" href="">
+                        <i class="logo_github iconlegende"></i>
                         <div>
                             <div>HugoDelbegue</div>
                             <div class="logo-label">Github</div>

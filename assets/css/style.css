@@ -621,8 +621,10 @@ section a.legende {
 }
 
 section div#form-right i {
-    margin-right: 20px;
-    font-size: 30px;
+    margin-right: 30px;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
 }
 
 section div.logo-label {
@@ -631,6 +633,25 @@ section div.logo-label {
     color: rgba(0, 0, 0, .5);
 }
 
+.logo_mail {
+    background-image: url("../images/enveloppe.png");
+}
+
+.logo_phone {
+    background-image: url("../images/telephone-portable.png");
+}
+
+.logo_instagram {
+    background-image: url("../images/instagram.png");
+}
+
+.logo_linkedin {
+    background-image: url("../images/linkedin.png");
+}
+
+.logo_github {
+    background-image: url("../images/github.png");
+}
 
 
 
