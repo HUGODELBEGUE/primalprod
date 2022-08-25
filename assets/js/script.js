@@ -111,14 +111,6 @@ window.addEventListener('resize', windowResize = () => {
     }
 })
 windowResize();
-// let itemVisible = 2;
-// let ratio = cards.length / itemVisible;
-// projectsBox.style.width = (ratio * 100) + "%";
-// for (let i = 0; i < cards.length; i++) {
-//     cards[i].style.width = ((100 / itemVisible) / ratio) + "%";
-//     cards[i].style.height = "auto";
-//     cards[i].style.aspectRatio = "1 / 1";
-// }
 if (window.innerWidth > 1080) {
     projectsBox.style.transform = "none";
 }

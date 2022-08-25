@@ -37,14 +37,14 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#about">
+                    <a href="#_about">
                         <i class="bi bi-file-person-fill"></i>
                         A propos
                     </a>
                 </li>
                 <li>
                     <a href="#contact">
-                        <i class="bi bi-person-lines-fill"></i>
+                        <i class="bi bi-pen-fill"></i>
                         Contact
                     </a>
                 </li>
@@ -58,7 +58,7 @@
                 <hr class="line-menu">
                 <a href="#projects">Expérience</a>
                 <hr class="line-menu">
-                <a href="#about">A propos</a>
+                <a href="#_about">A propos</a>
                 <hr class="line-menu">
                 <a href="#contact">Contact</a>
             </div>
@@ -68,7 +68,7 @@
 <section id="presentation">
     <div class="boxmodel">
         <div class="anchor"></div>
-        <h1>Hugo DELBEGUE | Développeur web</h1>
+        <h1>Hugo Delbegue <span id="title-bar">|</span> développeur web</h1>
         <h2 style="font-variant-caps: all-small-caps;">Freelance</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, provident laborum, sed officia pariatur
             architecto deserunt laudantium numquam doloremque distinctio assumenda modi, debitis dolore voluptate aut
@@ -93,6 +93,7 @@
                         officia fugit id unde totam magnam nisi fugiat illum, voluptates saepe suscipit. Unde ullam
                         repellat assumenda eaque beatae placeat expedita deleniti natus sed laboriosam obcaecati iure
                         optio tempora eos ipsa neque quisquam soluta qui, consectetur quas.</p>
+                    <a href="./projects/teacozy/index.html"><i class="bi bi-search visite"></i>visiter le projet</a>
                 </div>
             </div>
             <div class="popup-projects" id="text2">
@@ -133,31 +134,29 @@
             </div>
             <div id="projects-box">
                 <div class="card teacozy" onclick="clickProjects(1)" id="cardWidth">
-                    <!-- <a href="./projects/teacozy/"> -->
                     <div class="fadedbox">
-                        <i class="bi bi-search title text"><br>Flexbox<br>site entrainement</i>
+                        <i class="bi bi-search title text"><br>en savoir plus</i>
                     </div>
-<!--                    </a>-->
                 </div>
 
                 <div class="card mylinks" onclick="clickProjects(2)">
                     <div class="fadedbox">
-                        <i class="bi bi-search title text"><br>My links<br>en construction</i>
+                        <i class="bi bi-search title text"><br>en construction</i>
                     </div>
                 </div>
                 <div class="card" onclick="clickProjects(3)">
                     <div class="fadedbox">
-                        <i class="bi bi-search title text"><br></i>
+                        <i class="bi bi-search title text"><br>en savoir plus</i>
                     </div>
                 </div>
                 <div class="card" onclick="clickProjects(4)">
                     <div class="fadedbox">
-                        <i class="bi bi-search title text"><br></i>
+                        <i class="bi bi-search title text"><br>en savoir plus</i>
                     </div>
                 </div>
                 <div class="card" onclick="clickProjects(5)">
                     <div class="fadedbox">
-                        <i class="bi bi-search title text"><br></i>
+                        <i class="bi bi-search title text"><br>en savoir plus</i>
                     </div>
                 </div>
                 <div class="card" id="card-end">
@@ -176,7 +175,7 @@
         <div id="overlay"></div>
     </div>
 </section>
-<hr class="line-body" style="top: -30px;">
+<hr id="_about" class="line-body" style="top: -30px;">
 <section id="about">
     <div class="boxmodel">
         <h2>A propos</h2>
@@ -231,21 +230,55 @@
                 <input class="submit-button" type="submit" value="Envoyer">
             </form>
             <div id="form-right">
-                    <span><i class="bi bi-envelope iconlegende"></i>
-                        hugodelbegue@gmail.com
-                    </span>
-                <span><i class="bi bi-phone iconlegende"></i>
-                        06 38 38 77 07
-                    </span>
-                <span><i class="bi bi-instagram iconlegende"></i>
-                        instagram
-                    </span>
-                <span><i class="bi bi-linkedin iconlegende"></i>
-                        linkedin.com/hugo-delbegue
-                    </span>
-                <span><i class="bi bi-github iconlegende"></i>
-                        github.com/HUGODELBEGUE
-                    </span>
+                <span>
+                    <a class="legende" href="mailto:hugodelbegue@gmail.com">
+                        <i class="bi bi-envelope iconlegende"></i>
+                        <div>
+                            <div>hugodelbegue@gmail.com</div>
+                            <div class="logo-label">Email</div>
+                        </div>
+                    </a>
+                </span>
+                <hr class="line-form_right">
+                <span>
+                    <a class="legende" href="tel:0638387707">
+                        <i class="bi bi-phone iconlegende"></i>
+                        <div>
+                            <div>06 38 38 77 07</div>
+                            <div class="logo-label">Téléphone</div>
+                        </div>
+                    </a>
+                </span>
+                <hr class="line-form_right">
+                <span>
+                    <a class="legende" href="">
+                        <i class="bi bi-instagram iconlegende"></i>
+                        <div>
+                            <div>PrimalProd</div>
+                            <div class="logo-label">Instagram</div>
+                        </div>
+                    </a>
+                </span>
+                <hr class="line-form_right">
+                <span>
+                    <a class="legende" href="https://fr.linkedin.com/in/hugo-delbegue/">
+                        <i class="bi bi-linkedin iconlegende"></i>
+                        <div>
+                            <div>HugoDelbegue</div>
+                            <div class="logo-label">Linkedin</div>
+                        </div>
+                    </a>
+                </span>
+                <hr class="line-form_right">
+                <span>
+                    <a class="legende" href="">
+                        <i class="bi bi-github iconlegende"></i>
+                        <div>
+                            <div>HugoDelbegue</div>
+                            <div class="logo-label">Github</div>
+                        </div>
+                    </a>
+                </span>
             </div>
         </div>
     </div>
@@ -256,28 +289,44 @@
             <h4>Pour me contacter</h4>
             <ul>
                 <li>
-                        <span>
-                            <i class="bi bi-tornado iconlegende"></i>
-                            hugodelbegue@gmail.com
+                    <a href="mailto:hugodelbegue@gmail.com">
+                            <span>
+                            <i class="bi bi-send-fill iconlegende"></i>
+                                hugodelbegue@gmail.com
                         </span>
+                    </a>
                 </li>
                 <li>
-                        <span>
-                            <i class="bi bi-tropical-storm iconlegende"></i>
-                            autres
+                    <a href="">
+                            <span>
+                            <i class="bi bi-instagram iconlegende"></i>
+                                Instagram
                         </span>
+                    </a>
                 </li>
                 <li>
-                        <span>
-                            <i class="bi bi-vector-pen iconlegende"></i>
-                            site
+                    <a href="">
+                            <span>
+                            <i class="bi bi-facebook iconlegende"></i>
+                            Facebook
                         </span>
+                    </a>
                 </li>
                 <li>
-                        <span>
-                            <i class="bi bi-stack iconlegende"></i>
-                            formulaire
+                    <a href="https://fr.linkedin.com/in/hugo-delbegue/">
+                            <span>
+                            <i class="bi bi-linkedin iconlegende"></i>
+                                Linkedin
                         </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                            <span>
+                            <i class="bi bi-github iconlegende"></i>
+                                Github
+                        </span>
+                    </a>
                 </li>
             </ul>
         </div>

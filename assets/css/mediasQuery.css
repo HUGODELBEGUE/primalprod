@@ -124,6 +124,10 @@
         padding: 6em 20px;
     }
 
+    section span#title-bar {
+        display: none;
+    }
+
     section div#projects-content {
         padding: 0;
         margin: 0 auto;

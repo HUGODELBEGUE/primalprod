@@ -82,11 +82,12 @@ h1 {
     font-family: var(--first-font);
     font-size: clamp(30px, 3vw, 50px);
     letter-spacing: var(--letter-spacing-text);
+    font-variant-caps: small-caps;
 }
 
 h2 {
     font-family: var(--first-font);
-    font-size: clamp(20px, 3vw, 40px);;
+    font-size: clamp(10px, 3vw, 30px);;
     letter-spacing: var(--letter-spacing-text);
     margin: 10px 0 -20px 0;
 }
@@ -105,6 +106,13 @@ h4 {
     font-size: 18px;
     text-decoration: none;
     margin: 1.5em 0;
+    margin-top: 0;
+    color: rgba(0, 0, 0);
+    transition: color .15s linear;
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.5);
 }
 
 span,
@@ -304,6 +312,12 @@ section#presentation p {
     line-height: 2;
 }
 
+section span#title-bar {
+    font-size: inherit;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.25);
+}
+
 
 
 /* projects */
@@ -330,16 +344,16 @@ section div#projects-content p {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 1136px;
+    top: 1115px;
     display: none;
     justify-content: center;
     align-items: center;
     left: 0;
-    z-index: 3;
+    z-index: 15;
 }
 
 .popup {
-    width: 500px;
+    width: 80%;
     background-color: var(--primary-body-color);
     border-radius: 10px;
     position: fixed;
@@ -349,24 +363,27 @@ section div#projects-content p {
 }
 
 .close {
-    position: absolute;
-    top: -15px;
-    right: -15px;
     background-color: var(--primary-body-color);
-    border-radius: 50%;
+    border-radius: 25%;
     margin-right: 0;
     height: 30px;
     width: 30px;
     font-size: 20px;
     border: 2px solid rgba(0, 0, 0, 0.2);
     padding: 3px;
+    cursor: pointer;
+    transition: all .15s linear;
+}
+
+.close:hover {
+    background-color: rgba(0, 0, 0, 0.35);
 }
 
 section div.button {
     display: none;
     justify-content: center;
     gap: 100%;
-    margin: 0 4em 2em 4em;
+    margin: 2em 4em;
     user-select: none;
 }
 
@@ -377,10 +394,11 @@ section div.button {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.6);
     pointer-events: none;
     transition: all 1s;
     opacity: 1;
+    z-index: 10;
 }
 
 section div div#projects-box {
@@ -445,14 +463,14 @@ section div div#projects-box div.card .text {
 }
 
 section div div#projects-box div.card .title {
-    font-size: 2.5em;
+    font-family: var(--first-font);
+    font-size: 22px;
     font-variant-caps: small-caps;
     opacity: 0;
     transition-delay: 0.2s;
     transition-duration: 0.3s;
     margin: 0;
     font-style: normal;
-    font-size: 25px;
 }
 
 section div div#projects-box div.card:hover .title,
@@ -589,11 +607,30 @@ section div#form-contact div#form-right {
     justify-content: space-between;
     width: 30em;
     text-align: left;
-    padding: 5em 2em;
+    padding: 3em 2em;
     border: 2px solid rgba(223, 223, 223, 0.85);
     background-color: var(--primary-body-color);
     border-radius: 10px;
 }
+
+section a.legende {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+section div#form-right i {
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+section div.logo-label {
+    margin-top: 15px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .5);
+}
+
 
 
 
@@ -634,6 +671,9 @@ hr.line-body {
     top: 20px;
 }
 
-hr {
-    width: 100%;
+hr.line-form_right {
+    background-color: rgba(0, 0, 0, .1);
+    padding: 0.5px 0;
+    border: none;
+    border-radius: 20px;
 }
