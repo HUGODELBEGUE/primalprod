@@ -37,7 +37,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#_about">
+                    <a href="#about">
                         <i class="bi bi-file-person-fill"></i>
                         A propos
                     </a>
@@ -58,7 +58,7 @@
                 <hr class="line-menu">
                 <a href="#projects">Expérience</a>
                 <hr class="line-menu">
-                <a href="#_about">A propos</a>
+                <a href="#about">A propos</a>
                 <hr class="line-menu">
                 <a href="#contact">Contact</a>
             </div>
@@ -175,7 +175,7 @@
         <div id="overlay"></div>
     </div>
 </section>
-<hr id="_about" class="line-body" style="top: -30px;">
+<hr class="line-about">
 <section id="about">
     <div class="boxmodel">
         <h2>A propos</h2>
@@ -232,7 +232,7 @@
             <div id="form-right">
                 <span>
                     <a class="legende iconform" href="mailto:hugodelbegue@gmail.com">
-                        <i class="logo_mail iconlegende"></i>
+                        <i class="logo_mail"></i>
                         <div>
                             <div>hugodelbegue@gmail.com</div>
                             <div class="logo-label">Email</div>
@@ -242,7 +242,7 @@
                 <hr class="line-form_right">
                 <span>
                     <a class="legende iconform" href="tel:0638387707">
-                        <i class="logo_phone iconlegende"></i>
+                        <i class="logo_phone"></i>
                         <div>
                             <div>06 38 38 77 07</div>
                             <div class="logo-label">Téléphone</div>
@@ -251,8 +251,8 @@
                 </span>
                 <hr class="line-form_right">
                 <span>
-                    <a class="legende iconform" href="">
-                        <i class="logo_instagram iconlegende"></i>
+                    <a class="legende iconform" href="https://www.instagram.com/primalprod_freelance/">
+                        <i class="logo_instagram"></i>
                         <div>
                             <div>PrimalProd</div>
                             <div class="logo-label">Instagram</div>
@@ -262,7 +262,7 @@
                 <hr class="line-form_right">
                 <span>
                     <a class="legende iconform" href="https://fr.linkedin.com/in/hugo-delbegue/">
-                        <i class="logo_linkedin iconlegende"></i>
+                        <i class="logo_linkedin"></i>
                         <div>
                             <div>HugoDelbegue</div>
                             <div class="logo-label">Linkedin</div>
@@ -271,8 +271,8 @@
                 </span>
                 <hr class="line-form_right">
                 <span>
-                    <a class="legende iconform" href="">
-                        <i class="logo_github iconlegende"></i>
+                    <a class="legende iconform" href="https://github.com/HUGODELBEGUE">
+                        <i class="logo_github"></i>
                         <div>
                             <div>HugoDelbegue</div>
                             <div class="logo-label">Github</div>
@@ -291,23 +291,23 @@
                 <li>
                     <a href="mailto:hugodelbegue@gmail.com">
                             <span>
-                            <i class="bi bi-send-fill iconlegende"></i>
+                            <i class="bi bi-send-fill"></i>
                                 hugodelbegue@gmail.com
                         </span>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="https://www.instagram.com/primalprod_freelance/">
                             <span>
-                            <i class="bi bi-instagram iconlegende"></i>
+                            <i class="bi bi-instagram"></i>
                                 Instagram
                         </span>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="https://www.facebook.com/primalprod.freelance">
                             <span>
-                            <i class="bi bi-facebook iconlegende"></i>
+                            <i class="bi bi-facebook"></i>
                             Facebook
                         </span>
                     </a>
@@ -315,15 +315,15 @@
                 <li>
                     <a href="https://fr.linkedin.com/in/hugo-delbegue/">
                             <span>
-                            <i class="bi bi-linkedin iconlegende"></i>
+                            <i class="bi bi-linkedin"></i>
                                 Linkedin
                         </span>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="https://github.com/HUGODELBEGUE">
                             <span>
-                            <i class="bi bi-github iconlegende"></i>
+                            <i class="bi bi-github"></i>
                                 Github
                         </span>
                     </a>

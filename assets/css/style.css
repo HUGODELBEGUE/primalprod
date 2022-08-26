@@ -1,4 +1,17 @@
-/* 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+
+
+/*
 *
 ******************************** classes ********************************
 *
@@ -14,10 +27,6 @@
 .textmodel {
     padding: 20px;
     text-align: left;
-}
-
-.iconlegende {
-    margin-right: 3px;
 }
 
 .line-menu {
@@ -61,7 +70,7 @@
 
 .anchor {
     padding: 48px 0 0 0 !important;
-    
+
 }
 
 .display_items {
@@ -71,7 +80,7 @@
 
 
 
-/* 
+/*
 *
 ******************************** Fonts ********************************
 *
@@ -83,6 +92,7 @@ h1 {
     font-size: clamp(30px, 3vw, 50px);
     letter-spacing: var(--letter-spacing-text);
     font-variant-caps: small-caps;
+    font-weight: bold;
 }
 
 h2 {
@@ -90,6 +100,10 @@ h2 {
     font-size: clamp(10px, 3vw, 30px);;
     letter-spacing: var(--letter-spacing-text);
     margin: 10px 0 -20px 0;
+}
+
+h4 {
+    font-weight: bold;
 }
 
 p {
@@ -133,18 +147,12 @@ img {
 
 
 
-/* 
+/*
 *
-******************************** containers parents ******************************** 
+******************************** containers parents ********************************
 *
  */
 
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
     display: flex;
@@ -238,7 +246,7 @@ nav ul li a:hover {
 
 nav label {
     display: none;
-    justify-content: right;
+    justify-content: flex-end;
     align-items: center;
     height: 48px;
 }
@@ -285,7 +293,7 @@ nav div.menu-items a:hover {
 
 
 section#projects,
-section#contact {
+section#contact, section#about {
     padding-top: 5.5em;
 }
 
@@ -382,7 +390,7 @@ section div#projects-content p {
 section div.button {
     display: none;
     justify-content: center;
-    gap: 100%;
+    gap: max(3em, 100%);
     margin: 2em 4em;
     user-select: none;
 }
@@ -405,6 +413,10 @@ section div div#projects-box {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 2em 0;
+    border: 2px solid rgba(223, 223, 223, 0.85);
+    background-color: var(--primary-body-color);
+    border-radius: 10px;
 }
 
 section div div#projects-box div.card {
@@ -484,7 +496,7 @@ section div div#projects-box div#card-end.card {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--secondary-body-color);
+    background-color: var(--primary-body-color);
     box-shadow: 0 0 0 rgba(0, 0, 0);
     cursor: initial;
 }
@@ -505,8 +517,10 @@ section div div#projects-box div#card-end.card img:hover {
 
 
 
-section#about {
-    padding-top: 1.5em;
+
+.line-about {
+    height: 5px;
+    background-color: rgba(223, 223, 223, 0.85);
 }
 
 section div p img.avatar {
@@ -517,6 +531,7 @@ section div p img.avatar {
     right: 1em;
     z-index: -1;
 }
+
 
 
 
@@ -543,7 +558,7 @@ section div#form-contact form {
     flex-direction: column;
     gap: 2em;
     text-align: right;
-    padding: 2em;
+    padding: 1em;
     background-color: var(--primary-body-color);
     border-radius: 10px;
     border: 2px solid rgba(223, 223, 223, 0.85);
@@ -559,13 +574,10 @@ section div#form-contact form label {
     font-variant-caps: all-small-caps;
 }
 
-section div#form-contact form input {
-    padding: 10px;
-    font-family: monospace;
-}
-
 section div#form-contact form input,
 textarea {
+    font-family: monospace;
+    font-variant-caps: normal;
     border-radius: 10px;
     border: none;
     font-size: 15px;
@@ -607,7 +619,7 @@ section div#form-contact div#form-right {
     justify-content: space-between;
     width: 30em;
     text-align: left;
-    padding: 3em 2em;
+    padding: 3em;
     border: 2px solid rgba(223, 223, 223, 0.85);
     background-color: var(--primary-body-color);
     border-radius: 10px;

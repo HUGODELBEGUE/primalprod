@@ -84,6 +84,19 @@ const projectsBox = document.getElementById('projects-box');
 const button_d = document.getElementById('button_right');
 const button_g = document.getElementById('button_left');
 let cards = document.getElementsByClassName('card');
+let p = 0;
+buttonsDisplay = () => {
+    if (p === -5) {
+        button_d.style.visibility = "hidden";
+    } else {
+        button_d.style.visibility = "visible";
+    }
+    if (p === 0) {
+        button_g.style.visibility = "hidden";
+    } else {
+        button_g.style.visibility = "visible";
+    }
+}
 document.body.onload = () => {
     buttonsDisplay();
 }
@@ -98,6 +111,11 @@ window.addEventListener('resize', windowResize = () => {
             cards[i].style.width = ((100 / itemVisible) / ratio) + "%";
             cards[i].style.height = "auto";
             cards[i].style.aspectRatio = "1 / 1";
+            if (window.innerWidth > 1080) {
+                p = 0;
+                projectsBox.style.transform = "none";
+                buttonsDisplay();
+            }
         }
     } else if (window.innerWidth < 610) {
         let itemVisible = 1;
@@ -111,10 +129,6 @@ window.addEventListener('resize', windowResize = () => {
     }
 })
 windowResize();
-if (window.innerWidth > 1080) {
-    projectsBox.style.transform = "none";
-}
-let p = 0;
 button_d.onclick = () => {
     p--;
     let x = p * 100 / cards.length;
@@ -130,18 +144,6 @@ button_g.onclick = () => {
     projectsBox.style.transform = "translate3d(" + x + "%, 0, 0)";
     projectsBox.style.transition = "all 0.5s";
     buttonsDisplay();
-}
-buttonsDisplay = () => {
-    if (p === -5) {
-        button_d.style.visibility = "hidden";
-    } else {
-        button_d.style.visibility = "visible";
-    }
-    if (p === 0) {
-        button_g.style.visibility = "hidden";
-    } else {
-        button_g.style.visibility = "visible";
-    }
 }
 
 /* Liens formulaire */
