@@ -251,7 +251,7 @@
                 </span>
                 <hr class="line-form_right">
                 <span>
-                    <a class="legende iconform" href="https://www.instagram.com/primalprod_freelance/">
+                    <a class="legende iconform" href="https://www.instagram.com/primalprod_freelance/" target="_blank">
                         <i class="logo_instagram"></i>
                         <div>
                             <div>PrimalProd</div>
@@ -261,7 +261,7 @@
                 </span>
                 <hr class="line-form_right">
                 <span>
-                    <a class="legende iconform" href="https://fr.linkedin.com/in/hugo-delbegue/">
+                    <a class="legende iconform" href="https://fr.linkedin.com/in/hugo-delbegue/" target="_blank">
                         <i class="logo_linkedin"></i>
                         <div>
                             <div>HugoDelbegue</div>
@@ -271,7 +271,7 @@
                 </span>
                 <hr class="line-form_right">
                 <span>
-                    <a class="legende iconform" href="https://github.com/HUGODELBEGUE">
+                    <a class="legende iconform" href="https://github.com/HUGODELBEGUE" target="_blank">
                         <i class="logo_github"></i>
                         <div>
                             <div>HugoDelbegue</div>
@@ -297,7 +297,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/primalprod_freelance/">
+                    <a href="https://www.instagram.com/primalprod_freelance/" target="_blank">
                             <span>
                             <i class="bi bi-instagram"></i>
                                 Instagram
@@ -305,7 +305,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/primalprod.freelance">
+                    <a href="https://www.facebook.com/primalprod.freelance" target="_blank">
                             <span>
                             <i class="bi bi-facebook"></i>
                             Facebook
@@ -313,7 +313,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://fr.linkedin.com/in/hugo-delbegue/">
+                    <a href="https://fr.linkedin.com/in/hugo-delbegue/" target="_blank">
                             <span>
                             <i class="bi bi-linkedin"></i>
                                 Linkedin
@@ -321,7 +321,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/HUGODELBEGUE">
+                    <a href="https://github.com/HUGODELBEGUE" target="_blank">
                             <span>
                             <i class="bi bi-github"></i>
                                 Github

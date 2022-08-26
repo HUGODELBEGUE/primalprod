@@ -35,7 +35,7 @@
     }
 
     section {
-        padding-top: 0;
+        padding-top: 0 !important;
     }
 
     section div div#projects-box div.card {
@@ -114,10 +114,6 @@
 
     nav div.menu-items a {
         font-size: 18px;
-    }
-
-    section {
-        padding-top: 0;
     }
 
     section#presentation div {
