@@ -165,3 +165,16 @@ for (let i = 0; i < aLegende.length; i++){
     }
 }
 
+/* Bouton retour en haut */
+
+const return_to_top = document.getElementById('return-to-top');
+window.addEventListener("scroll", () => {
+    if (this.window.scrollY < 20) {
+        return_to_top.classList.add("hide");
+        return_to_top.classList.remove("show");
+    } else {
+        return_to_top.classList.add("show");
+        return_to_top.classList.remove("hide");
+    }
+})
+

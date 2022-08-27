@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link rel="stylesheet" href="assets/css/variables.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/mediasQuery.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/responsive.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,6 +17,7 @@
 </head>
 
 <body>
+<span id="top"></span>
 <header>
     <div class="content-header">
         <a href="./">
@@ -70,10 +71,8 @@
         <div class="anchor"></div>
         <h1>Hugo Delbegue <span id="title-bar">|</span> développeur web</h1>
         <h2 style="font-variant-caps: all-small-caps;">Freelance</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, provident laborum, sed officia pariatur
-            architecto deserunt laudantium numquam doloremque distinctio assumenda modi, debitis dolore voluptate aut
-            eos atque corrupti ea minus nulla quasi tempora et cum eligendi? Dolores numquam hic pariatur minima qui
-            facilis maxime ?</p>
+        <p class="presentation-text">Créateur de sites et projets web, je cherche continuellement à progresser et me
+            donne les moyens de réaliser. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, quasi!</p>
     </div>
 </section>
 <hr class="line-body">
@@ -190,15 +189,7 @@
             culpa tempore praesentium aut consequatur, maiores error explicabo, cupiditate quis velit et quidem
             voluptate sequi mollitia at! Facere, culpa? Aperiam provident dolorem vero excepturi perspiciatis dicta
             suscipit ipsa. Ducimus accusantium quia nobis excepturi voluptatem libero praesentium eius voluptate cum.
-            Libero aperiam fuga quaerat temporibus! Aliquam veritatis voluptatum similique ad. Maxime ipsum eius at,
-            tenetur voluptatem, fuga similique enim perferendis molestiae eligendi saepe? Culpa quod delectus maiores
-            omnis blanditiis et voluptate officiis rerum dolor corporis odit, a porro iure distinctio cum veritatis
-            adipisci consequuntur id vel error debitis sint alias nostrum. Quod harum, asperiores suscipit iure placeat
-            aut reiciendis assumenda debitis id necessitatibus, rerum fuga nihil voluptas eius maiores minima distinctio
-            dolorum eaque eligendi cumque explicabo est error ullam delectus? Fugit enim libero officia, eaque incidunt
-            optio nemo, cum vitae ullam aliquid quis sed, itaque et distinctio excepturi in maiores cumque quaerat
-            officiis ad? Ipsum amet tempore aperiam porro eligendi expedita optio fugit reiciendis odio, ea facere eaque
-            aut! Deserunt, commodi!</p>
+            Libero aperiam fuga quaerat temporibus!</p>
     </div>
 </section>
 <hr class="line-body">
@@ -340,6 +331,7 @@
         </div>
     </div>
 </footer>
+<a href="#top" id="return-to-top" class="hide"></a>
 <script src="./assets/js/script.js"></script>
 </body>
 
