@@ -752,11 +752,11 @@ footer div #footer-text {
 }
 
 .hide {
-    opacity: 0;
+    opacity: 0 !important;
 }
 
 .show {
-    opacity: 1;
+    opacity: 1 !important;
 }
 
 hr.line-body {
