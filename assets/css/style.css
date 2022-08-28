@@ -98,7 +98,8 @@ h1 {
 
 h2 {
     font-family: var(--first-font);
-    font-size: clamp(10px, 3vw, 30px);;
+    font-size: clamp(10px, 3vw, 30px);
+    ;
     letter-spacing: var(--letter-spacing-title);
     margin: 10px 0 -20px 0;
 }
@@ -313,7 +314,8 @@ nav div.menu-items a:hover {
 
 
 section#projects,
-section#contact, section#about {
+section#contact,
+section#about {
     padding-top: 5.5em;
 }
 

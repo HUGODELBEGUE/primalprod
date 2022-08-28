@@ -150,15 +150,15 @@ button_g.onclick = () => {
 
 const aLegende = document.getElementsByClassName('legende');
 const divLabel = document.getElementsByClassName('logo-label')
-for (let i = 0; i < aLegende.length; i++){
+for (let i = 0; i < aLegende.length; i++) {
     aLegende[i].onmouseover = () => {
-        for (let j = 0; j < divLabel.length; j++){
+        for (let j = 0; j < divLabel.length; j++) {
             divLabel[i].style.color = "rgb(0, 0, 0)";
             divLabel[i].style.transition = "color .15s linear";
         }
     }
     aLegende[i].onmouseleave = () => {
-        for (let j = 0; j < divLabel.length; j++){
+        for (let j = 0; j < divLabel.length; j++) {
             divLabel[i].style.color = "rgb(0, 0, 0, .5)";
             divLabel[i].style.transition = "color .15s linear";
         }
