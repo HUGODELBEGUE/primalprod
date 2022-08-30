@@ -146,6 +146,29 @@ button_g.onclick = () => {
     buttonsDisplay();
 }
 
+/* Popup validation formulaire */
+
+const form = document.forms['contact_mail'];
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const formContainer = document.getElementById('form-contact');
+    const pop = document.createElement('div');
+    pop.classList.add('pop-form')
+    pop.textContent = 'Message envoye';
+    formContainer.appendChild(pop);
+    setTimeout(() => {
+        location.reload();
+    }, 2000);
+})
+// form.addEventListener('beforeinput', () => {
+//         console.log(form['name'].value.trim());
+//     if (!form['name'].value.trim()) {
+//         form['name'].style.backgroundColor = "white";
+//     } else {
+//         form['name'].style.backgroundColor = "rgba(0, 0, 0, .5)";
+//     }
+// })
+
 /* Liens formulaire */
 
 const aLegende = document.getElementsByClassName('legende');

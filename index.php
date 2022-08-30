@@ -203,7 +203,7 @@
                 totam. Distinctio, earum! Deserunt ipsam accusantium, fugit facilis numquam tenetur!</p>
             <hr class="line-content">
             <div id="form-contact">
-                <form method="post">
+                <form method="post" name="contact_mail">
                     <label class="textinput">
                         Votre nom
                         <input type="text" name="name" placeholder="Tom Sawyer" size="50" required>
@@ -338,7 +338,7 @@
 
 <?php
 
-// Validation of contact form
+// Validation du formulaire de contact
 if ($_REQUEST) {
     if ((isset($_POST['message'])) && (isset($_POST['email']))) {
         $message = "Tu as reçu un message du site primalprod.fr

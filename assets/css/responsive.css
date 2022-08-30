@@ -34,8 +34,9 @@
         display: flex;
     }
 
-    section {
+    section#presentation {
         padding-top: 0 !important;
+        height: 100%;
     }
 
     section div div#projects-box div.card {
@@ -43,7 +44,8 @@
     }
 
     section#projects,
-    section#contact {
+    section#contact,
+    section#about {
         padding-top: 2em;
     }
 
@@ -66,10 +68,6 @@
 
     section div.button {
         display: flex;
-    }
-
-    section#about {
-        padding-top: 0;
     }
 
     section div#form-contact {
