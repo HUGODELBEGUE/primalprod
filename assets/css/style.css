@@ -576,7 +576,6 @@ section#contact {
 section div#form-contact {
     display: flex;
     justify-content: center;
-    position: relative;
     gap: 20px;
     padding: 5em 20px;
 }
@@ -642,8 +641,8 @@ section div#form-contact form input.submit-button:hover {
 }
 
 .pop-form {
-    position: absolute;
-    top: 20%;
+    position: fixed;
+    top: calc(50% - 4em);
     align-items: center;
     display: flex;
     justify-content: center;
@@ -654,7 +653,7 @@ section div#form-contact form input.submit-button:hover {
     font-size: 20px;
     font-variant-caps: all-small-caps;
     font-family: var(--second-font);
-    box-shadow: 0 0 10px grey;
+    box-shadow: var(--box-shadow-2dp);
 }
 
 section div#form-contact div#form-right {

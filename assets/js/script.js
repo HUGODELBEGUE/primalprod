@@ -157,8 +157,8 @@ form.addEventListener('submit', (e) => {
     pop.textContent = 'Message envoye';
     formContainer.appendChild(pop);
     setTimeout(() => {
-        location.reload();
-    }, 2000);
+        window.location.reload();
+    }, 1000);
 })
 // form.addEventListener('beforeinput', () => {
 //         console.log(form['name'].value.trim());
