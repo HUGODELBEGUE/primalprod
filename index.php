@@ -71,7 +71,7 @@
             <div class="anchor"></div>
             <h1>Hugo Delbegue <span id="title-bar">|</span> développeur web</h1>
             <h2 style="font-variant-caps: all-small-caps;">Freelance</h2>
-            <p class="presentation-text">Créateur de sites et projets web, je cherche continuellement à progresser et me
+            <p class="presentation-text">Créateur de sites et projets web, je cherche continuellement à m'améliorer et me
                 donne les moyens de réaliser. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, quasi!</p>
         </div>
     </section>
@@ -345,6 +345,7 @@ if ($_REQUEST) {
                     Nom de l'expéditeur: " . $_POST['name'] . "
                     Mail: " . $_POST['email'] . "\r\n\r\n" . $_POST['message'];
         $back = mail("hugodelbegue@gmail.com", $_POST['subject'], $message, "From:contact@primalprod.fr" . "\r\n" . "Reply-to:" . $_POST['email']);
+            var_dump($back);
         if ($back) {
             echo '<p>Le formulaire a été validé.</p>';
             exit;

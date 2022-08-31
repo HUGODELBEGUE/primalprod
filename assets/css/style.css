@@ -642,18 +642,18 @@ section div#form-contact form input.submit-button:hover {
 
 .pop-form {
     position: fixed;
-    top: calc(50% - 4em);
+    top: calc(25% - 4em);
     align-items: center;
     display: flex;
     justify-content: center;
-    background-color: var(--footer-color);
-    border-radius: 10px;
-    width: 10em;
+    width: 4em;
     height: 4em;
-    font-size: 20px;
-    font-variant-caps: all-small-caps;
-    font-family: var(--second-font);
-    box-shadow: var(--box-shadow-2dp);
+    color: lawngreen;
+}
+
+.pop-form i {
+    font-size: 4em;
+    margin-right: 0;
 }
 
 section div#form-contact div#form-right {
