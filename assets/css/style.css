@@ -343,7 +343,6 @@ section#presentation p {
     font-family: var(--first-font);
     font-size: clamp(18px, 2vw, 25px);
     line-height: 2;
-    font-weight: bold;
     letter-spacing: var(--letter-spacing-title);
 }
 
@@ -388,6 +387,10 @@ section div#projects-content p {
 }
 
 .popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 80%;
     background-color: var(--primary-body-color);
     border-radius: 10px;
@@ -458,6 +461,10 @@ section div div#projects-box div.card {
 
 .teacozy {
     background-image: url("../images/teacozy.png");
+}
+
+.cleanfast {
+    background-image: url("../images/cleanFast.png");
 }
 
 .mylinks {
