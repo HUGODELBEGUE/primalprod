@@ -278,7 +278,7 @@
 <footer>
     <div class="content-footer boxmodel">
         <div id="footer-left" class="textmodel">
-            <h4>Pour me contacter</h4>
+            <h3>Pour me contacter</h3>
             <ul>
                 <li>
                     <a href="mailto:hugodelbegue@gmail.com">
@@ -323,7 +323,7 @@
             </ul>
         </div>
         <div id="footer-right" class="textmodel">
-            <h4>En savoir un peu plus..</h4>
+            <h3>En savoir un peu plus..</h3>
             <p id="footer-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas maiores vero autem
                 aliquam cupiditate, sapiente velit maxime delectus adipisci placeat. Lorem ipsum dolor sit amet
                 consectetur adipisicing elit. Explicabo harum nisi cumque ipsum officiis corrupti voluptate provident
