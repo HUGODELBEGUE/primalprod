@@ -15,15 +15,18 @@ window.addEventListener("scroll", () => {
 const bouton = document.querySelector("#icon-menu");
 const icon = document.querySelector("#icon-menu > i");
 const menu = document.querySelector(".menu-items");
+const logo = document.querySelector("#logo_primalprod")
 bouton.addEventListener("click", () => {
     if (icon.className === 'bi bi-list') {
         icon.classList.remove('bi-list');
         icon.classList.add('bi-x');
         menu.style.display = "flex";
+        logo.style.opacity = ".3";
     } else {
         icon.classList.remove('bi-x');
         icon.classList.add('bi-list');
         menu.style.display = "none";
+        logo.style.opacity = "1";
     }
 });
 window.addEventListener("scroll", () => {
@@ -50,14 +53,14 @@ clickProjects = (n) => {
             document.querySelector("#text3").style.display = "flex";
             overlay.style.display = "block";
             break;
-        case 4:
-            document.querySelector("#text4").style.display = "flex";
-            overlay.style.display = "block";
-            break;
-        case 5:
-            document.querySelector("#text5").style.display = "flex";
-            overlay.style.display = "block";
-            break;
+        // case 4:
+        //     document.querySelector("#text4").style.display = "flex";
+        //     overlay.style.display = "block";
+        //     break;
+        // case 5:
+        //     document.querySelector("#text5").style.display = "flex";
+        //     overlay.style.display = "block";
+        //     break;
         default:
             window.open('./');
     }
@@ -86,7 +89,7 @@ const button_g = document.getElementById('button_left');
 let cards = document.getElementsByClassName('card');
 let p = 0;
 buttonsDisplay = () => {
-    if (p === -5) {
+    if (p === -3) {
         button_d.style.visibility = "hidden";
     } else {
         button_d.style.visibility = "visible";
@@ -157,28 +160,28 @@ form.addEventListener('submit', () => {
     formContainer.appendChild(pop);
 })
 form.addEventListener('input', () => {
-        for (let i = 0; i < form.length; i++){
-    console.log()
-            if (form[i]['name'] === 'name') {
-                form['name'].style.backgroundColor = "rgba(242, 199, 68, .35)";
-                form['name'].style.transition = "all .10s linear";
-            }
-            if (form[i]['name'] === 'email'){
-                form['email'].style.backgroundColor = "rgba(242, 199, 68, .35)";
-                form['email'].style.transition = "all .10s linear";
-            }
-            if (form[i]['name'] === 'subject'){
-                form['subject'].style.backgroundColor = "rgba(242, 199, 68, .35)";
-                form['subject'].style.transition = "all .10s linear";
-            }
-            if (form[i]['name'] === 'message'){
-                form['message'].style.backgroundColor = "rgba(242, 199, 68, .35)";
-                form['message'].style.transition = "all .10s linear";
-            }
-            if (form[i].value === ''){
-                form[i].style.backgroundColor = "#fff";
-            }
+    for (let i = 0; i < form.length; i++) {
+        console.log()
+        if (form[i]['name'] === 'name') {
+            form['name'].style.backgroundColor = "rgba(242, 199, 68, .35)";
+            form['name'].style.transition = "all .10s linear";
         }
+        if (form[i]['name'] === 'email') {
+            form['email'].style.backgroundColor = "rgba(242, 199, 68, .35)";
+            form['email'].style.transition = "all .10s linear";
+        }
+        if (form[i]['name'] === 'subject') {
+            form['subject'].style.backgroundColor = "rgba(242, 199, 68, .35)";
+            form['subject'].style.transition = "all .10s linear";
+        }
+        if (form[i]['name'] === 'message') {
+            form['message'].style.backgroundColor = "rgba(242, 199, 68, .35)";
+            form['message'].style.transition = "all .10s linear";
+        }
+        if (form[i].value === '') {
+            form[i].style.backgroundColor = "#fff";
+        }
+    }
 })
 
 /* Liens formulaire */

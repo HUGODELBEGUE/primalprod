@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<!--    <meta name="description" content="Site web PrimalProd">-->
+    <!--    <meta name="description" content="Site web PrimalProd">-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link rel="stylesheet" href="assets/css/variables.css" type="text/css">
@@ -22,7 +22,7 @@
 <header>
     <div class="content-header">
         <a href="./">
-            <img src="./assets/images/logo.png" alt="logo primalprod" width="100" height="100">
+            <img src="./assets/images/logo.png" alt="logo primalprod" id="logo_primalprod" width="100" height="100">
         </a>
         <nav>
             <ul>
@@ -89,48 +89,57 @@
             <div class="popup-projects" id="text1">
                 <div class="popup">
                     <i class="bi bi-x-lg close"></i>
+                    <div class="language_projects">
+                        <div class="language">HTML</div>
+                        <div class="language">CSS</div>
+                        <div class="language">Flexbox</div>
+                        <div class="language">Responsive</div>
+                    </div>
                     <p>1Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo impedit quaerat sunt a quam
-                        officia fugit id unde totam magnam nisi fugiat illum, voluptates saepe suscipit. Unde ullam
-                        repellat assumenda eaque beatae placeat expedita deleniti natus sed laboriosam obcaecati iure
-                        optio tempora eos ipsa neque quisquam soluta qui, consectetur quas.</p>
-<!--                    <img src="./assets/images/teacozy.png">-->
-                    <a href="./projects/teacozy/index.html"><i class="bi bi-search visite"></i>visiter le projet</a>
+                        officia fugit id unde totam magnam nisi fugiat illum.</p>
+                    <div class="img_projects">
+                        <img src="./assets/images/img_projects/teacozy1.png" class="imgProjects">
+                        <img src="./assets/images/img_projects/teacozy2.png" class="imgProjects">
+                        <img src="./assets/images/img_projects/teacozy3.png" class="imgProjects">
+                    </div>
+                    <a href="./projects/teacozy/img_projects/index.html" class="links-popup">Visiter le projet</a>
                 </div>
             </div>
             <div class="popup-projects" id="text2">
                 <div class="popup">
                     <i class="bi bi-x-lg close"></i>
+                    <div class="language_projects">
+                        <div class="language">HTML</div>
+                        <div class="language">CSS</div>
+                        <div class="language">SASS</div>
+                        <div class="language">Flexbox</div>
+                        <div class="language">Responsive</div>
+                    </div>
                     <p>2Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo impedit quaerat sunt a quam
-                        officia fugit id unde totam magnam nisi fugiat illum, voluptates saepe suscipit. Unde ullam
-                        repellat assumenda eaque beatae placeat expedita deleniti natus sed laboriosam obcaecati iure
-                        optio tempora eos ipsa neque quisquam soluta qui, consectetur quas.</p>
+                        officia fugit id unde totam magnam nisi fugiat illum.</p>
+                    <div class="img_projects">
+                        <img src="./assets/images/img_projects/cleanFast1.png" class="imgProjects">
+                        <img src="./assets/images/img_projects/cleanFast2.png" class="imgProjects">
+                    </div>
+                    <a href="./projects/teacozy/img_projects/index.html" class="links-popup"
+                       style="pointer-events: none; opacity: .3;">Visiter le projet</a>
                 </div>
             </div>
             <div class="popup-projects" id="text3">
                 <div class="popup">
                     <i class="bi bi-x-lg close"></i>
+                    <div class="language_projects">
+                        <div class="language">HTML</div>
+                        <div class="language">CSS</div>
+                        <div class="language">Bootstrap</div>
+                        <div class="language">PHP</div>
+                        <div class="language">mySQL</div>
+                    </div>
                     <p>3Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo impedit quaerat sunt a quam
                         officia fugit id unde totam magnam nisi fugiat illum, voluptates saepe suscipit. Unde ullam
                         repellat assumenda eaque beatae placeat expedita deleniti natus sed laboriosam obcaecati iure
                         optio tempora eos ipsa neque quisquam soluta qui, consectetur quas.</p>
-                </div>
-            </div>
-            <div class="popup-projects" id="text4">
-                <div class="popup">
-                    <i class="bi bi-x-lg close"></i>
-                    <p>4Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo impedit quaerat sunt a quam
-                        officia fugit id unde totam magnam nisi fugiat illum, voluptates saepe suscipit. Unde ullam
-                        repellat assumenda eaque beatae placeat expedita deleniti natus sed laboriosam obcaecati iure
-                        optio tempora eos ipsa neque quisquam soluta qui, consectetur quas.</p>
-                </div>
-            </div>
-            <div class="popup-projects" id="text5">
-                <div class="popup">
-                    <i class="bi bi-x-lg close"></i>
-                    <p>5Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo impedit quaerat sunt a quam
-                        officia fugit id unde totam magnam nisi fugiat illum, voluptates saepe suscipit. Unde ullam
-                        repellat assumenda eaque beatae placeat expedita deleniti natus sed laboriosam obcaecati iure
-                        optio tempora eos ipsa neque quisquam soluta qui, consectetur quas.</p>
+                    <a href="" class="links-popup" style="pointer-events: none; opacity: .3;">visiter le projet</a>
                 </div>
             </div>
             <div id="projects-box">
@@ -149,16 +158,6 @@
                         <i class="bi bi-search title text"><br>en construction</i>
                     </div>
                 </div>
-<!--                <div class="card" onclick="clickProjects(4)">-->
-<!--                    <div class="fadedbox">-->
-<!--                        <i class="bi bi-search title text"><br>en savoir plus</i>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="card" onclick="clickProjects(5)">-->
-<!--                    <div class="fadedbox">-->
-<!--                        <i class="bi bi-search title text"><br>en savoir plus</i>-->
-<!--                    </div>-->
-<!--                </div>-->
                 <div class="card" id="card-end">
                     <img src="./assets/images/suite.svg" alt="etiquette suite prochainement">
                 </div>
