@@ -35,6 +35,10 @@ header div ul {
     text-decoration: underline;
 }
 
+header div ul li a {
+    color: white;
+}
+
 /* sections */
 
 section {
