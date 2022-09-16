@@ -102,7 +102,7 @@
                         <img src="./assets/images/img_projects/teacozy2.png" class="imgProjects">
                         <img src="./assets/images/img_projects/teacozy3.png" class="imgProjects">
                     </div>
-                    <a href="./projects/teacozy/img_projects/index.html" class="links-popup">Visiter le projet</a>
+                    <a href="./projects/teacozy/index.html" class="links-popup">Visiter le projet</a>
                 </div>
             </div>
             <div class="popup-projects" id="text2">
@@ -121,7 +121,7 @@
                         <img src="./assets/images/img_projects/cleanFast1.png" class="imgProjects">
                         <img src="./assets/images/img_projects/cleanFast2.png" class="imgProjects">
                     </div>
-                    <a href="./projects/teacozy/img_projects/index.html" class="links-popup"
+                    <a href="./projects/cleanFast/index.html" class="links-popup"
                        style="pointer-events: none; opacity: .3;">Visiter le projet</a>
                 </div>
             </div>
