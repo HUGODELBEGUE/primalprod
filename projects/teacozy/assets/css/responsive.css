@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1230px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    #section3 {
+        height: auto;
+        padding: 84.335px 50px;
+    }
+
+    #locations {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        justify-content: center;
+    }
+
+    header div ul {
+        display: none;
+    }
+
+    footer div#copyright {
+        text-align: center;
+    }
+}

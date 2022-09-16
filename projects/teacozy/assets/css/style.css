@@ -47,6 +47,8 @@ section {
     flex-direction: column;
     justify-content: center;
     background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 700px;
 }
 
@@ -69,6 +71,8 @@ section #tea-of-the-month div.pictures {
 
 #section3 {
     background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 500px;
     display: flex;
     flex-direction: column;
