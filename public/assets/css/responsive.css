@@ -30,7 +30,7 @@
         display: flex;
     }
 
-    nav #menu:checked + .menu-items {
+    nav #menu:checked+.menu-items {
         display: flex;
     }
 

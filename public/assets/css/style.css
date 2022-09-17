@@ -94,7 +94,8 @@ h1 {
 
 h2 {
     font-family: var(--first-font);
-    font-size: clamp(10px, 3vw, 30px);;
+    font-size: clamp(10px, 3vw, 30px);
+    ;
     letter-spacing: var(--letter-spacing-title);
     margin: 10px 0 -20px 0;
 }
@@ -772,6 +773,40 @@ footer div #footer-text {
     margin: 0;
 }
 
+footer div.mentions_legales {
+    background-color: rgba(223, 223, 223);
+    width: 100%;
+}
+
+footer div.links_legales {
+    max-width: 1300px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+div.links_legales p,
+div.links_legales a {
+    font-family: var(--second-font);
+    letter-spacing: var(--letter-spacing-text);
+    line-height: 1.7;
+    font-size: inherit;
+    margin: 0;
+}
+
+div.official_doc {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 1300px;
+    text-align: left;
+    padding: 2.5em;
+}
+
+div.official_doc p {
+    margin-top: 2em;
+}
+
 #return-to-top {
     display: flex;
     justify-content: center;
@@ -808,9 +843,14 @@ footer div #footer-text {
     opacity: 1 !important;
 }
 
-hr.line-body {
-    background-image: url(../images/phrase.svg);
+hr.phrase1 {
+    background-image: url(../images/phrase1.svg);
     top: 20px;
+}
+
+hr.phrase2 {
+    background-image: url(../images/phrase2.svg);
+    top: 19px;
 }
 
 hr.line-form_right {

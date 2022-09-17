@@ -1,72 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include '../templates/header.html.php' ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--    <meta name="description" content="Site web PrimalProd">-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/variables.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/responsive.css" type="text/css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="./assets/images/favicon.png">
-    <title>Développeur web | Hugo Delbegue</title>
-</head>
-
-<body>
-<span id="top"></span>
-<header>
-    <div class="content-header">
-        <a href="./">
-            <img src="./assets/images/logo.png" alt="logo primalprod" id="logo_primalprod" width="100" height="100">
-        </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#presentation">
-                        <i class="bi bi-easel-fill"></i>
-                        Présentation
-                    </a>
-                </li>
-                <li>
-                    <a href="#projects">
-                        <i class="bi bi-kanban-fill"></i>
-                        Expérience
-                    </a>
-                </li>
-                <li>
-                    <a href="#about">
-                        <i class="bi bi-file-person-fill"></i>
-                        A propos
-                    </a>
-                </li>
-                <li>
-                    <a href="#contact">
-                        <i class="bi bi-pen-fill"></i>
-                        Contact
-                    </a>
-                </li>
-            </ul>
-            <label id="icon-menu" for="menu">
-                <i class="bi bi-list"></i>
-            </label>
-            <input type="checkbox" id="menu">
-            <div class="menu-items">
-                <a href="./">Présentation</a>
-                <hr class="line-menu">
-                <a href="#projects">Expérience</a>
-                <hr class="line-menu">
-                <a href="#about">A propos</a>
-                <hr class="line-menu">
-                <a href="#contact">Contact</a>
-            </div>
-        </nav>
-    </div>
-</header>
 <section id="presentation">
     <div class="boxmodel">
         <div class="anchor"></div>
@@ -76,7 +9,7 @@
             bons programmeurs écrivent du code que les humains peuvent comprendre. ” - Martin Fowler</p>
     </div>
 </section>
-<hr class="line-body">
+<hr class="line-body phrase1">
 <section id="projects">
     <div class="boxmodel">
         <h2>Projets</h2>
@@ -121,8 +54,7 @@
                         <img src="./assets/images/img_projects/cleanFast1.png" class="imgProjects">
                         <img src="./assets/images/img_projects/cleanFast2.png" class="imgProjects">
                     </div>
-                    <a href="./projects/cleanFast/index.html" class="links-popup"
-                       style="pointer-events: none; opacity: .3;">Visiter le projet</a>
+                    <a href="./projects/cleanFast/index.html" class="links-popup" style="pointer-events: none; opacity: .3;">Visiter le projet</a>
                 </div>
             </div>
             <div class="popup-projects" id="text3">
@@ -192,7 +124,7 @@
             Libero aperiam fuga quaerat temporibus!</p>
     </div>
 </section>
-<hr class="line-body">
+<hr class="line-body phrase2">
 <section id="contact">
     <div class="boxmodel">
         <h2>Me contacter</h2>
@@ -216,144 +148,83 @@
                     L'objet de votre demande
                     <input type="text" name="subject" placeholder="Sujet du message.." size="50" required>
                 </label>
-                <textarea name="message" cols="30" rows="10" placeholder="Ecrivez votre demande ici.."
-                          required></textarea>
+                <textarea name="message" cols="30" rows="10" placeholder="Ecrivez votre demande ici.." required></textarea>
                 <input class="submit-button" type="submit" value="Envoyer">
             </form>
             <div id="form-right">
-                    <span>
-                        <a class="legende iconform" href="mailto:hugodelbegue@gmail.com">
-                            <i class="logo_mail"></i>
-                            <div>
-                                <div>hugodelbegue@gmail.com</div>
-                                <div class="logo-label">Email</div>
-                            </div>
-                        </a>
-                    </span>
+                <span>
+                    <a class="legende iconform" href="mailto:hugodelbegue@gmail.com">
+                        <i class="logo_mail"></i>
+                        <div>
+                            <div>hugodelbegue@gmail.com</div>
+                            <div class="logo-label">Email</div>
+                        </div>
+                    </a>
+                </span>
                 <hr class="line-form_right">
                 <span>
-                        <a class="legende iconform" href="tel:0638387707">
-                            <i class="logo_phone"></i>
-                            <div>
-                                <div>06 38 38 77 07</div>
-                                <div class="logo-label">Téléphone</div>
-                            </div>
-                        </a>
-                    </span>
+                    <a class="legende iconform" href="tel:0638387707">
+                        <i class="logo_phone"></i>
+                        <div>
+                            <div>06 38 38 77 07</div>
+                            <div class="logo-label">Téléphone</div>
+                        </div>
+                    </a>
+                </span>
                 <hr class="line-form_right">
                 <span>
-                        <a class="legende iconform" href="https://www.instagram.com/primalprod_freelance/"
-                           target="_blank">
-                            <i class="logo_instagram"></i>
-                            <div>
-                                <div>PrimalProd</div>
-                                <div class="logo-label">Instagram</div>
-                            </div>
-                        </a>
-                    </span>
+                    <a class="legende iconform" href="https://www.instagram.com/primalprod_freelance/" target="_blank">
+                        <i class="logo_instagram"></i>
+                        <div>
+                            <div>PrimalProd</div>
+                            <div class="logo-label">Instagram</div>
+                        </div>
+                    </a>
+                </span>
                 <hr class="line-form_right">
                 <span>
-                        <a class="legende iconform" href="https://fr.linkedin.com/in/hugo-delbegue/" target="_blank">
-                            <i class="logo_linkedin"></i>
-                            <div>
-                                <div>HugoDelbegue</div>
-                                <div class="logo-label">Linkedin</div>
-                            </div>
-                        </a>
-                    </span>
+                    <a class="legende iconform" href="https://fr.linkedin.com/in/hugo-delbegue/" target="_blank">
+                        <i class="logo_linkedin"></i>
+                        <div>
+                            <div>HugoDelbegue</div>
+                            <div class="logo-label">Linkedin</div>
+                        </div>
+                    </a>
+                </span>
                 <hr class="line-form_right">
                 <span>
-                        <a class="legende iconform" href="https://github.com/HUGODELBEGUE" target="_blank">
-                            <i class="logo_github"></i>
-                            <div>
-                                <div>HugoDelbegue</div>
-                                <div class="logo-label">Github</div>
-                            </div>
-                        </a>
-                    </span>
+                    <a class="legende iconform" href="https://github.com/HUGODELBEGUE" target="_blank">
+                        <i class="logo_github"></i>
+                        <div>
+                            <div>HugoDelbegue</div>
+                            <div class="logo-label">Github</div>
+                        </div>
+                    </a>
+                </span>
             </div>
         </div>
     </div>
 </section>
-<footer>
-    <div class="content-footer boxmodel">
-        <div id="footer-left" class="textmodel">
-            <h3>Pour me contacter</h3>
-            <ul>
-                <li>
-                    <a href="mailto:hugodelbegue@gmail.com">
-                            <span>
-                                <i class="bi bi-send-fill"></i>
-                                hugodelbegue@gmail.com
-                            </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/primalprod_freelance/" target="_blank">
-                            <span>
-                                <i class="bi bi-instagram"></i>
-                                Instagram
-                            </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/primalprod.freelance" target="_blank">
-                            <span>
-                                <i class="bi bi-facebook"></i>
-                                Facebook
-                            </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://fr.linkedin.com/in/hugo-delbegue/" target="_blank">
-                            <span>
-                                <i class="bi bi-linkedin"></i>
-                                Linkedin
-                            </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/HUGODELBEGUE" target="_blank">
-                            <span>
-                                <i class="bi bi-github"></i>
-                                Github
-                            </span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div id="footer-right" class="textmodel">
-            <h3>En savoir un peu plus..</h3>
-            <p id="footer-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas maiores vero autem
-                aliquam cupiditate, sapiente velit maxime delectus adipisci placeat. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Explicabo harum nisi cumque ipsum officiis corrupti voluptate provident
-                distinctio nemo quia!
-            </p>
-        </div>
-    </div>
-</footer>
-<a href="#top" id="return-to-top" class="hide"></a>
-<script src="./assets/js/script.js"></script>
-</body>
 
-</html>
+<?php include '../templates/footer.html.php' ?>
 
 <?php
-
-// Validation du formulaire de contact
-if ($_REQUEST) {
-    if ((isset($_POST['message'])) && (isset($_POST['email']))) {
-        $message = "Tu as reçu un message du site primalprod.fr
-                    Nom de l'expéditeur: " . $_POST['name'] . "
-                    Mail: " . $_POST['email'] . "\r\n\r\n" . $_POST['message'];
-        $back = mail("hugodelbegue@gmail.com", $_POST['subject'], $message, "From:contact@primalprod.fr" . "\r\n" . "Reply-to:" . $_POST['email']);
-        var_dump($back);
-        if ($back) {
-//            echo '<p>Le formulaire a été validé.</p>';
-            exit;
-        }
-    }
-    header("Location: https://primalprod.fr/one-page/");
-    exit;
-}
+//
+//// Validation du formulaire de contact
+//if ($_REQUEST) {
+//    if ((isset($_POST['message'])) && (isset($_POST['email']))) {
+//        $message = "Tu as reçu un message du site primalprod.fr
+//                    Nom de l'expéditeur: " . $_POST['name'] . "
+//                    Mail: " . $_POST['email'] . "\r\n\r\n" . $_POST['message'];
+//        $back = mail("hugodelbegue@gmail.com", $_POST['subject'], $message, "From:contact@primalprod.fr" . "\r\n" . "Reply-to:" . $_POST['email']);
+//        var_dump($back);
+//        if ($back) {
+////            echo '<p>Le formulaire a été validé.</p>';
+//            exit;
+//        }
+//    }
+//    header("Location: https://primalprod.fr/");
+//    exit;
+//}
+//
 ?>
