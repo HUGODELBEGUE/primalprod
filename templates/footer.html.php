@@ -50,7 +50,7 @@
             <p id="footer-text">Développeur web passionné de front-end, je cherche continuellement à m'améliorer et
                 reste ouvert à tout
                 type de propositions de projets de création de sites internet. Située dans la ville de Grenoble, une
-                collaboration sur des projets dans toute la France est une possibilité plus qu'envisagable.
+                collaboration sur des projets dans toute la France est une possibilité envisagable.
                 <br><br>
                 <i class="bi bi-fingerprint"></i>
                 Site hébergé de manière écologique, afin d'atténuer son impact sur l'envirronnement.

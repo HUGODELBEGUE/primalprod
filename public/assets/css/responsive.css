@@ -89,6 +89,10 @@
         padding: 30px !important;
     }
 
+    div.official_doc {
+        margin-top: 0;
+    }
+
     .iconform {
         justify-content: center;
     }
@@ -185,5 +189,9 @@
 
     footer div.content-footer {
         flex-wrap: wrap;
+    }
+
+    footer div.links_legales {
+        font-size: 14px;
     }
 }
