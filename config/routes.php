@@ -13,4 +13,8 @@ return [
         "controller" => "mentions-legales.php",
         "action" => "mentions",
     ],
+    "/teacozy" => [
+        "controller" => "teacozy.php",
+        "action" => "teacozy",
+    ],
 ];

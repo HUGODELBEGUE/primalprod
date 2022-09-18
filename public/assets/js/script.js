@@ -34,6 +34,7 @@ window.addEventListener("scroll", () => {
         menu.style.display = "none";
         icon.classList.remove('bi-x');
         icon.classList.add('bi-list');
+        logo.style.opacity = "1";
     }
 })
 
@@ -214,5 +215,15 @@ window.addEventListener("scroll", () => {
         return_to_top.classList.add("show");
         return_to_top.classList.remove("hide");
     }
+    let timer = null;
+    window.addEventListener('scroll', function() {
+        if(timer !== null) {
+            clearTimeout(timer);
+            return_to_top.style.backgroundColor = "rgba(0, 0, 0, .7)";
+        }
+        timer = setTimeout(function() {
+            return_to_top.style.backgroundColor = "rgba(0, 0, 0, .2)";
+        }, 750);
+    }, false);
 })
 

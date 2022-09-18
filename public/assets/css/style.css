@@ -819,7 +819,7 @@ div.official_doc p {
     right: 2em;
     width: 40px;
     height: 40px;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .2);
     margin: 0;
     border-radius: 25%;
     transition: all .15s linear;

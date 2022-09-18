@@ -35,7 +35,7 @@
                         <img src="./assets/images/img_projects/teacozy2.png" class="imgProjects">
                         <img src="./assets/images/img_projects/teacozy3.png" class="imgProjects">
                     </div>
-                    <a href="./projects/teacozy/index.html" class="links-popup">Visiter le projet</a>
+                    <a href="/teacozy" class="links-popup">Visiter le projet</a>
                 </div>
             </div>
             <div class="popup-projects" id="text2">
