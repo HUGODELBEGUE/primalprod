@@ -94,7 +94,7 @@ h1 {
 
 h2 {
     font-family: var(--first-font);
-    font-size: clamp(10px, 3vw, 30px);
+    font-size: clamp(40px, 3vw, 60px);
     ;
     letter-spacing: var(--letter-spacing-title);
     margin: 10px 0 -20px 0;
@@ -435,20 +435,16 @@ section div#projects-content div.language_projects {
 }
 
 .close {
-    background-color: var(--primary-body-color);
-    border-radius: 25%;
+    color: var(--button-color);
     margin-right: 0;
-    height: 30px;
-    width: 30px;
-    font-size: 20px;
-    border: 2px solid rgba(0, 0, 0, 0.2);
-    padding: 3px;
+    font-size: 30px;
     cursor: pointer;
     transition: all .15s linear;
 }
 
 .close:hover {
-    background-color: rgba(0, 0, 0, 0.35);
+    color: rgb(136, 54, 22);
+
 }
 
 section div.button {

@@ -48,12 +48,11 @@
         <div id="footer-right" class="textmodel">
             <h3>En savoir un peu plus..</h3>
             <p id="footer-text">Développeur web passionné de front-end, je cherche continuellement à m'améliorer et
-                reste ouvert à tout
-                type de propositions de projets de création de sites internet. Située dans la ville de Grenoble, une
-                collaboration sur des projets dans toute la France est une possibilité envisagable.
+                reste ouvert à tout type de propositions de projets et de création de sites internet. Située dans la ville de Grenoble, une
+                collaboration dans toute la France est une possibilité envisageable.
                 <br><br>
                 <i class="bi bi-fingerprint"></i>
-                Site hébergé de manière écologique, afin d'atténuer son impact sur l'envirronnement.
+                Site hébergé de manière écologique, afin d'atténuer son impact sur l'environnement.
             </p>
         </div>
     </div>

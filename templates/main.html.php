@@ -4,7 +4,7 @@
     <div class="boxmodel">
         <div class="anchor"></div>
         <h1>Hugo Delbegue <span id="title-bar">|</span> développeur web</h1>
-        <h2 style="font-variant-caps: all-small-caps;">Freelance</h2>
+        <h2 style="font-variant-caps: all-small-caps; font-size: 25px">Freelance</h2>
         <p class="presentation-text">“ N’importe quel idiot peut écrire du code qu'un ordinateur peut comprendre. Les
             bons programmeurs écrivent du code que les humains peuvent comprendre. ” - Martin Fowler</p>
     </div>
@@ -14,14 +14,12 @@
     <div class="boxmodel">
         <h2>Projets</h2>
         <hr class="line-title">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, aspernatur laborum nihil maxime tenetur
-            temporibus cum asperiores illo consectetur, recusandae distinctio dolorum odit quam voluptates labore
-            perferendis debitis quasi fugiat!</p>
+        <p>Voici une liste de mes projets réalisés..</p>
         <hr class="line-content">
         <div id="projects-content">
             <div class="popup-projects" id="text1">
                 <div class="popup">
-                    <i class="bi bi-x-lg close"></i>
+                    <i class="bi bi-x-circle-fill close"></i>
                     <div class="language_projects">
                         <div class="language">HTML</div>
                         <div class="language">CSS</div>
@@ -31,16 +29,16 @@
                     <p>1Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo impedit quaerat sunt a quam
                         officia fugit id unde totam magnam nisi fugiat illum.</p>
                     <div class="img_projects">
-                        <img src="./assets/images/img_projects/teacozy1.png" class="imgProjects">
-                        <img src="./assets/images/img_projects/teacozy2.png" class="imgProjects">
-                        <img src="./assets/images/img_projects/teacozy3.png" class="imgProjects">
+                        <a href="./assets/images/img_projects/teacozy1.png"><img src="./assets/images/img_projects/teacozy1.png" class="imgProjects"></a>
+                        <a href="./assets/images/img_projects/teacozy2.png"><img src="./assets/images/img_projects/teacozy2.png" class="imgProjects"></a>
+                        <a href="./assets/images/img_projects/teacozy3.png"><img src="./assets/images/img_projects/teacozy3.png" class="imgProjects"></a>
                     </div>
                     <a href="/teacozy" class="links-popup">Visiter le projet</a>
                 </div>
             </div>
             <div class="popup-projects" id="text2">
                 <div class="popup">
-                    <i class="bi bi-x-lg close"></i>
+                    <i class="bi bi-x-circle-fill close"></i>
                     <div class="language_projects">
                         <div class="language">HTML</div>
                         <div class="language">CSS</div>
@@ -51,15 +49,15 @@
                     <p>2Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo impedit quaerat sunt a quam
                         officia fugit id unde totam magnam nisi fugiat illum.</p>
                     <div class="img_projects">
-                        <img src="./assets/images/img_projects/cleanFast1.png" class="imgProjects">
-                        <img src="./assets/images/img_projects/cleanFast2.png" class="imgProjects">
+                        <a href="./assets/images/img_projects/cleanFast1.png"><img src="./assets/images/img_projects/cleanFast1.png" class="imgProjects"></a>
+                        <a href="./assets/images/img_projects/cleanFast2.png"><img src="./assets/images/img_projects/cleanFast2.png" class="imgProjects"></a>
                     </div>
                     <a href="./projects/cleanFast/index.html" class="links-popup" style="pointer-events: none; opacity: .3;">Visiter le projet</a>
                 </div>
             </div>
             <div class="popup-projects" id="text3">
                 <div class="popup">
-                    <i class="bi bi-x-lg close"></i>
+                    <i class="bi bi-x-circle-fill close"></i>
                     <div class="language_projects">
                         <div class="language">HTML</div>
                         <div class="language">CSS</div>
@@ -129,10 +127,13 @@
     <div class="boxmodel">
         <h2>Me contacter</h2>
         <hr class="line-title">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit sint fugit sunt error hic magnam iure.
-            Rerum, aperiam incidunt. Aperiam doloribus neque tenetur maxime laborum quasi. Pariatur eaque accusamus
-            suscipit cumque aspernatur temporibus laborum quas, perferendis distinctio mollitia quibusdam, explicabo
-            totam. Distinctio, earum! Deserunt ipsam accusantium, fugit facilis numquam tenetur!</p>
+        <p>Si vous êtes intéressé par mon profil, et que vous avez une idée ou que vous cherchez une collaboration, ou encore si vous souhaitez un simple renseignement, n'hésité pas à m'écrire un message.
+            <br>
+            Vous pouvez aussi me contacter par <a href="tel:0638387707" style="font-size: 15px; color: var(--logo-color)">téléphone</a>, si vous préférez échanger de vive voix..
+            <br>
+            Mon adresse email est également présente en bas de la page.
+            <br>
+            A bientôt..<i class="bi bi-bicycle"></i></p>
         <hr class="line-content">
         <div id="form-contact">
             <form method="post" name="contact_mail">
@@ -153,7 +154,7 @@
             </form>
             <div id="form-right">
                 <span>
-                    <a class="legende iconform" href="mailto:hugodelbegue@gmail.com">
+                    <a class="legende" href="mailto:hugodelbegue@gmail.com">
                         <i class="logo_mail"></i>
                         <div>
                             <div>hugodelbegue@gmail.com</div>
@@ -163,7 +164,7 @@
                 </span>
                 <hr class="line-form_right">
                 <span>
-                    <a class="legende iconform" href="tel:0638387707">
+                    <a class="legende" href="tel:0638387707">
                         <i class="logo_phone"></i>
                         <div>
                             <div>06 38 38 77 07</div>
@@ -173,7 +174,7 @@
                 </span>
                 <hr class="line-form_right">
                 <span>
-                    <a class="legende iconform" href="https://www.instagram.com/primalprod_freelance/" target="_blank">
+                    <a class="legende" href="https://www.instagram.com/primalprod_freelance/" target="_blank">
                         <i class="logo_instagram"></i>
                         <div>
                             <div>PrimalProd</div>
@@ -183,7 +184,7 @@
                 </span>
                 <hr class="line-form_right">
                 <span>
-                    <a class="legende iconform" href="https://fr.linkedin.com/in/hugo-delbegue/" target="_blank">
+                    <a class="legende" href="https://fr.linkedin.com/in/hugo-delbegue/" target="_blank">
                         <i class="logo_linkedin"></i>
                         <div>
                             <div>HugoDelbegue</div>
@@ -193,7 +194,7 @@
                 </span>
                 <hr class="line-form_right">
                 <span>
-                    <a class="legende iconform" href="https://github.com/HUGODELBEGUE" target="_blank">
+                    <a class="legende" href="https://github.com/HUGODELBEGUE" target="_blank">
                         <i class="logo_github"></i>
                         <div>
                             <div>HugoDelbegue</div>
