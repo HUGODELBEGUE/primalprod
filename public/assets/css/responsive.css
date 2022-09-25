@@ -80,9 +80,13 @@
         text-align: center !important;
     }
 
+    section a.legende {
+        justify-content: space-between;
+    }
+
     section div#form-contact div {
         gap: 15px;
-        text-align: center !important;
+        text-align: right !important;
     }
 
     div#form-right {
@@ -106,7 +110,7 @@
     /*}*/
 }
 
-@media only screen and (max-width: 610px) {
+@media only screen and (max-width: 565px) {
 
     .textinput {
         font-size: 15px;

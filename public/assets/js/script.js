@@ -38,6 +38,18 @@ window.addEventListener("scroll", () => {
     }
 })
 
+/* Effet du titre */
+
+const titleEffect = document.getElementById('effect_title');
+let tw = new Typewriter(titleEffect, {
+    wrapperClassName: 'wrapper',
+    cursorClassName: 'cursor',
+    delay: 75,
+});
+tw
+    .typeString('bijourrrrrrr')
+    .start();
+
 /* Ouverture popups projets */
 
 clickProjects = (n) => {

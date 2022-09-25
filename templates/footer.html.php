@@ -48,7 +48,7 @@
         <div id="footer-right" class="textmodel">
             <h3>En savoir un peu plus..</h3>
             <p id="footer-text">Développeur web passionné de front-end, je cherche continuellement à m'améliorer et
-                reste ouvert à tout type de propositions de projets et de création de sites internet. Située dans la ville de Grenoble, une
+                reste ouvert à tout type de propositions de projets et de création de sites internet. Situé dans la ville de Grenoble, une
                 collaboration dans toute la France est une possibilité envisageable.
                 <br><br>
                 <i class="bi bi-fingerprint"></i>
@@ -65,6 +65,8 @@
     </div>
 </footer>
 <a href="#top" id="return-to-top" class="hide"></a>
+
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 <script src="./assets/js/script.js"></script>
 </body>
 
