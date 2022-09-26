@@ -3,11 +3,9 @@
     <section id="presentation">
         <div class="boxmodel">
             <div class="anchor"></div>
-            <h1>Hugo Delbegue <span id="title-bar">|</span> développeur&nbsp;web</h1>
-            <h2 id="effect_title" style="font-variant-caps: all-small-caps; font-size: 25px">Freelance</h2>
-            <p class="presentation-text">“ N’importe quel idiot peut écrire du code qu'un ordinateur peut comprendre.
-                Les
-                bons programmeurs écrivent du code que les humains peuvent comprendre. ” - Martin Fowler</p>
+            <h1>Hugo&nbsp;Delbegue <span id="title-bar">|</span> développeur&nbsp;web</h1>
+            <h2 id="effect_title" style="font-variant-caps: all-small-caps; font-size: 30px"></h2>
+            <p class="presentation-text">Créateur de sites internet et projets web, je réalise vos demandes sur mesure et de manière éthique.</p>
         </div>
     </section>
     <hr class="line-body phrase1">
@@ -143,13 +141,15 @@
             <p>Si vous êtes intéressé par mon profil, et que vous avez une idée ou que vous cherchez une collaboration,
                 ou encore si vous souhaitez un simple renseignement, n'hésitez pas à m'écrire un message.
                 <br>
-                Vous pouvez aussi me contacter par <a href="tel:0638387707" style="font-size: 15px; color: var(--logo-color)">téléphone</a>,
+                Vous pouvez aussi me contacter par <a class="lines-links" href="tel:0638387707" style="font-size: 15px; color: var(--logo-color)">téléphone</a>,
                 si vous préférez échanger de vive voix..
                 <br>
                 Mon adresse email est également présente en bas de la page.
                 <br>
                 <br>
-                A bientôt..&nbsp;<i class="bi bi-bicycle"></i></p>
+                A bientôt..
+                <br>
+                <i class="bi bi-bicycle"></i></p>
             <hr class="line-content">
             <div id="form-contact">
                 <form method="post" name="contact_mail">

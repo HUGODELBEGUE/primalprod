@@ -39,6 +39,10 @@
         height: 100%;
     }
 
+    section span.wrapper {
+        font-size: 25px;
+    }
+
     section div div#projects-box div.card {
         min-width: 0;
     }

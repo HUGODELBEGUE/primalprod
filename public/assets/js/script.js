@@ -45,9 +45,31 @@ let tw = new Typewriter(titleEffect, {
     wrapperClassName: 'wrapper',
     cursorClassName: 'cursor',
     delay: 75,
+    loop: true,
 });
 tw
-    .typeString('bijourrrrrrr')
+    .typeString('<span class="wrapper" style="color: #202124">freelance</span>')
+    .pauseFor(1500)
+    .deleteChars(9)
+    .pauseFor(500)
+    .typeString('<span class="wrapper" style="color: #4b47a1">wordpress</span>')
+    .pauseFor(1500)
+    .deleteChars(9)
+    .pauseFor(500)
+    .typeString('<span class="wrapper" style="color: #f2c744">javascript</span>')
+    .pauseFor(1500)
+    .deleteChars(10)
+    .pauseFor(500)
+    .typeString('<span class="wrapper" style="color: #f16524">html</span>')
+    .pauseFor(300)
+    .typeString('&nbsp;&&nbsp;' + '<span class="wrapper" style="color: #01a3e0">css</span>')
+    .pauseFor(1500)
+    .deleteChars(10)
+    .pauseFor(500)
+    .typeString('<span class="wrapper" style="color: #8791be">php</span>')
+    .pauseFor(1500)
+    .deleteChars(3)
+    .pauseFor(500)
     .start();
 
 /* Ouverture popups projets */
