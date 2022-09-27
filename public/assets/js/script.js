@@ -40,7 +40,6 @@ window.addEventListener("scroll", () => {
 
 /* Effet du titre */
 
-const titleDev = document.getElementById('title-dev');
 const titleEffect = document.getElementById('effect_title');
 let tw1 = new Typewriter(titleEffect, {
     wrapperClassName: 'wrapper',
