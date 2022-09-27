@@ -94,8 +94,7 @@ h1 {
 
 h2 {
     font-family: var(--first-font);
-    font-size: clamp(40px, 3vw, 60px);
-    ;
+    font-size: clamp(40px, 3vw, 60px);;
     letter-spacing: var(--letter-spacing-title);
     margin: 10px 0 -20px 0;
 }
@@ -432,6 +431,14 @@ section div#projects-content div.language_projects {
     overflow: scroll;
 }
 
+.div-popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 .links-popup {
     background-color: rgba(242, 199, 68, 0.85);
     color: var(--text-color);
@@ -439,7 +446,7 @@ section div#projects-content div.language_projects {
     font-variant-caps: all-small-caps;
     border: 1px solid rgba(0, 0, 0, .3);
     border-radius: 10px;
-    padding: 5px;
+    padding: 2px 5px;
     transition: all .15s linear;
 }
 

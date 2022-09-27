@@ -40,23 +40,25 @@ window.addEventListener("scroll", () => {
 
 /* Effet du titre */
 
+const titleDev = document.getElementById('title-dev');
 const titleEffect = document.getElementById('effect_title');
-let tw = new Typewriter(titleEffect, {
+let tw1 = new Typewriter(titleEffect, {
     wrapperClassName: 'wrapper',
     cursorClassName: 'cursor',
     delay: 75,
     loop: true,
 });
-tw
+tw1
+    .pauseFor(1000)
     .typeString('<span class="wrapper" style="color: #202124">freelance</span>')
     .pauseFor(1500)
     .deleteChars(9)
     .pauseFor(500)
-    .typeString('<span class="wrapper" style="color: #4b47a1">wordpress</span>')
+    .typeString('<span class="wrapper" style="color: #4b47a1">WordPress</span>')
     .pauseFor(1500)
     .deleteChars(9)
     .pauseFor(500)
-    .typeString('<span class="wrapper" style="color: #f2c744">javascript</span>')
+    .typeString('<span class="wrapper" style="color: #f2c744">JavaScript</span>')
     .pauseFor(1500)
     .deleteChars(10)
     .pauseFor(500)
@@ -64,12 +66,12 @@ tw
     .pauseFor(1500)
     .deleteChars(3)
     .pauseFor(500)
-    .typeString('<span class="wrapper" style="color: #f16524">html</span>')
+    .typeString('<span class="wrapper" style="color: #f16524">HTML</span>')
     .pauseFor(300)
-    .typeString('&nbsp;&&nbsp;' + '<span class="wrapper" style="color: #01a3e0">css</span>')
+    .typeString('&nbsp;&&nbsp;' + '<span class="wrapper" style="color: #01a3e0">CSS</span>')
     .pauseFor(1500)
     .deleteChars(10)
-    .pauseFor(500)
+    .pauseFor(1000)
     .start();
 
 /* Ouverture popups projets */

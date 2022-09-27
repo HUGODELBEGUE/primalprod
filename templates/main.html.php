@@ -4,14 +4,14 @@
         <div class="boxmodel">
             <div class="anchor"></div>
             <h1>Hugo&nbsp;Delbegue <span id="title-bar">|</span> développeur&nbsp;web</h1>
-            <h2 id="effect_title" style="font-variant-caps: all-small-caps; font-size: 30px"></h2>
+            <h2 id="effect_title" style="font-variant-caps: small-caps; font-size: 30px"></h2>
             <p class="presentation-text">Créateur de sites internet et projets web, je réalise vos demandes sur mesure et de manière éthique.</p>
         </div>
     </section>
     <hr class="line-body phrase1">
     <section id="projects">
         <div class="boxmodel">
-            <h2>Mes projets</h2>
+        <h2>Mes projets</h2>
             <hr class="line-title">
             <p>Voici une liste de mes projets réalisés..</p>
             <hr class="line-content">
@@ -35,7 +35,10 @@
                             <a href="./assets/images/img_projects/teacozy3.png"><img
                                         src="./assets/images/img_projects/teacozy3.png" class="imgProjects"></a>
                         </div>
-                        <a href="/teacozy" class="links-popup">Visiter le projet</a>
+                        <div class="div-popup">
+                            <a href="https://hugodelbegue.github.io/" class="links-popup">visiter le projet</a>
+                            <a href="https://github.com/HUGODELBEGUE/teacozy" class="links-popup">GitHub</a>
+                        </div>
                     </div>
                 </div>
                 <div class="popup-projects" id="text2">
@@ -56,8 +59,11 @@
                             <a href="./assets/images/img_projects/cleanFast2.png"><img
                                         src="./assets/images/img_projects/cleanFast2.png" class="imgProjects"></a>
                         </div>
-                        <a href="./projects/cleanFast/index.html" class="links-popup"
-                           style="pointer-events: none; opacity: .3;">Visiter le projet</a>
+                        <div class="div-popup">
+                            <a href="./projects/cleanFast/index.html" class="links-popup"
+                               style="pointer-events: none; opacity: .3;">Visiter le projet</a>
+                            <a href="https://github.com/HUGODELBEGUE/cleanFast" class="links-popup">GitHub</a>
+                        </div>
                     </div>
                 </div>
                 <div class="popup-projects" id="text3">
@@ -75,7 +81,10 @@
                             repellat assumenda eaque beatae placeat expedita deleniti natus sed laboriosam obcaecati
                             iure
                             optio tempora eos ipsa neque quisquam soluta qui, consectetur quas.</p>
-                        <a href="" class="links-popup" style="pointer-events: none; opacity: .3;">visiter le projet</a>
+                        <div class="div-popup">
+                            <a href="" class="links-popup" style="pointer-events: none; opacity: .3;">visiter le projet</a>
+                            <a href="https://github.com/HUGODELBEGUE/my-links" class="links-popup">GitHub</a>
+                        </div>
                     </div>
                 </div>
                 <div id="projects-box">
