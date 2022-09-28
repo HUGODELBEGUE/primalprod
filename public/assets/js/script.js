@@ -48,7 +48,7 @@ let tw1 = new Typewriter(titleEffect, {
     loop: true,
 });
 tw1
-    .pauseFor(1000)
+    .pauseFor(750)
     .typeString('<span class="wrapper" style="color: #202124">freelance</span>')
     .pauseFor(1500)
     .deleteChars(9)
