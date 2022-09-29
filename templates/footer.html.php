@@ -67,7 +67,7 @@
 <a href="#top" id="return-to-top" class="hide"></a>
 
 <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-<script src="./assets/js/script.js"></script>
+<script type="module" src="./assets/js/script.js"></script>
 </body>
 
 </html>

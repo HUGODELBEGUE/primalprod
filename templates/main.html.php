@@ -36,7 +36,7 @@
                                         src="./assets/images/img_projects/teacozy3.png" class="imgProjects"></a>
                         </div>
                         <div class="div-popup">
-                            <a href="https://hugodelbegue.github.io/" class="links-popup">visiter le projet</a>
+                            <a href="https://hugodelbegue.github.io/teacozy/" class="links-popup">visiter le projet</a>
                             <a href="https://github.com/HUGODELBEGUE/teacozy" class="links-popup">GitHub</a>
                         </div>
                     </div>
@@ -234,24 +234,3 @@
     </section>
 
 <?php include '../templates/footer.html.php' ?>
-
-<?php
-//
-//// Validation du formulaire de contact
-//if ($_REQUEST) {
-//    if ((isset($_POST['message'])) && (isset($_POST['email']))) {
-//        $message = "Tu as reçu un message du site primalprod.fr
-//                    Nom de l'expéditeur: " . $_POST['name'] . "
-//                    Mail: " . $_POST['email'] . "\r\n\r\n" . $_POST['message'];
-//        $back = mail("hugodelbegue@gmail.com", $_POST['subject'], $message, "From:contact@primalprod.fr" . "\r\n" . "Reply-to:" . $_POST['email']);
-//        var_dump($back);
-//        if ($back) {
-////            echo '<p>Le formulaire a été validé.</p>';
-//            exit;
-//        }
-//    }
-//    header("Location: https://primalprod.fr/");
-//    exit;
-//}
-//
-?>
