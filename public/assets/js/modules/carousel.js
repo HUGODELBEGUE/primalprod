@@ -5,7 +5,7 @@ const button_g = document.getElementById('button_left');
 let cards = document.getElementsByClassName('card');
 let p = 0;
 
-/* Apparition des boutons suivants et precedents */
+/* Visibilité des boutons suivants et precedents */
 document.buttonsDisplay = () => {
     if (p === -3) {
         button_d.style.visibility = "hidden";

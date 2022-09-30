@@ -4,17 +4,20 @@
         <div class="boxmodel">
             <div class="anchor"></div>
             <h1>Hugo&nbsp;Delbegue <span id="title-bar">|</span> développeur&nbsp;web</h1>
-            <h2 id="effect_title" style="font-variant-caps: small-caps; font-size: 30px"></h2>
-            <p class="presentation-text">Créateur de sites internet et projets web, je réalise vos demandes sur mesure et de manière éthique.</p>
+            <p class="presentation-text">Créateur de sites internet et projets web, je réalise vos demandes sur mesure
+                et de manière éthique.</p>
+            <h2 id="effect_title" style="font-variant-caps: small-caps;"></h2>
         </div>
     </section>
     <hr class="line-body phrase1">
     <section id="projects">
-        <div class="boxmodel">
-        <h2>Mes projets</h2>
-            <hr class="line-title">
-            <p>Voici une liste de mes projets réalisés..</p>
-            <hr class="line-content">
+        <div>
+            <div class="boxmodel" style="padding-bottom: 0">
+                <h2>Mes projets</h2>
+                <hr class="line-title">
+                <p>Voici une liste de mes projets réalisés..</p>
+                <hr class="line-content">
+            </div>
             <div id="projects-content">
                 <div class="popup-projects" id="text1">
                     <div class="popup">
@@ -25,8 +28,10 @@
                             <div class="language">Flexbox</div>
                             <div class="language">Responsive</div>
                         </div>
-                        <p>1Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo impedit quaerat sunt a quam
-                            officia fugit id unde totam magnam nisi fugiat illum.</p>
+                        <p>Réalisation du projet Teacozy, qui est un site d'entrainement sur le positionnement des
+                            conteneurs de manière harmonieuse avec Flexbox et avec une partie responsive pour une
+                            adaptation
+                            sur toutes tailles d'écrans.</p>
                         <div class="img_projects">
                             <a href="./assets/images/img_projects/teacozy1.png"><img
                                         src="./assets/images/img_projects/teacozy1.png" class="imgProjects"></a>
@@ -82,7 +87,8 @@
                             iure
                             optio tempora eos ipsa neque quisquam soluta qui, consectetur quas.</p>
                         <div class="div-popup">
-                            <a href="" class="links-popup" style="pointer-events: none; opacity: .3;">visiter le projet</a>
+                            <a href="" class="links-popup" style="pointer-events: none; opacity: .3;">visiter le
+                                projet</a>
                             <a href="https://github.com/HUGODELBEGUE/my-links" class="links-popup">GitHub</a>
                         </div>
                     </div>
@@ -150,7 +156,8 @@
             <p>Si vous êtes intéressé par mon profil, et que vous avez une idée ou que vous cherchez une collaboration,
                 ou encore si vous souhaitez un simple renseignement, n'hésitez pas à m'écrire un message.
                 <br>
-                Vous pouvez aussi me contacter par <a class="lines-links" href="tel:0638387707" style="font-size: 15px; color: var(--logo-color)">téléphone</a>,
+                Vous pouvez aussi me contacter par <a class="lines-links" href="tel:0638387707"
+                                                      style="font-size: 15px; color: var(--logo-color)">téléphone</a>,
                 si vous préférez échanger de vive voix..
                 <br>
                 Mon adresse email est également présente en bas de la page.

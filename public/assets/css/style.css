@@ -20,6 +20,10 @@
     max-width: var(--max-width-body);
     margin: 0 auto;
     padding: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .textmodel {
@@ -41,6 +45,7 @@
     height: 20px;
     background-position: center;
     border: none;
+    z-index: -5;
 }
 
 .line-body {
@@ -332,6 +337,7 @@ section#presentation p {
     font-size: clamp(18px, 2vw, 25px);
     line-height: 2;
     letter-spacing: var(--letter-spacing-title);
+    margin-top: 1em;
 }
 
 section span#title-bar {
@@ -343,11 +349,11 @@ section span#title-bar {
 section span.wrapper {
     font-family: var(--first-font);
     letter-spacing: var(--letter-spacing-title);
-    font-size: 30px;
+    font-size: 40px;
 }
 
 section span.cursor {
-    font-size: 40px;
+    font-size: 50px;
     -webkit-animation: Typewriter-cursor 1s infinite;
     animation: Typewriter-cursor 1s infinite;
     margin-left: 1px;
@@ -818,6 +824,9 @@ section div.logo-label {
 
 footer div.content-footer {
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 2.5em 1em;
 }
 
 footer div#footer-left {
