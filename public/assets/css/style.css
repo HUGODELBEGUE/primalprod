@@ -45,7 +45,6 @@
     height: 20px;
     background-position: center;
     border: none;
-    z-index: -5;
 }
 
 .line-body {
@@ -102,6 +101,7 @@ h2 {
     font-size: clamp(40px, 3vw, 60px);;
     letter-spacing: var(--letter-spacing-title);
     margin: 10px 0 -20px 0;
+    z-index: 5;
 }
 
 h3 {
@@ -368,6 +368,8 @@ section#projects {
 }
 
 section div#projects-content {
+    max-width: var(--max-width-body);
+    margin: 0 auto;
     display: flex;
     align-items: flex-start;
     padding: 5em 2em 2em 2em;
