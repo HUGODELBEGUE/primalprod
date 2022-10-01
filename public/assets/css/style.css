@@ -889,8 +889,20 @@ div.official_doc {
     margin-top: 6em;
 }
 
+div.official_doc h2 {
+    font-size: 35px;
+    width: 100%;
+    border-top: 1px solid var(--hover-color);
+    z-index: 0;
+    padding-top: 1em;
+}
+
 div.official_doc p {
     margin-top: 2em;
+}
+
+div.official_doc a {
+    font-size: initial;
 }
 
 #return-to-top {
