@@ -1,5 +1,7 @@
 <?php include '../templates/header.html.php' ?>
 
+<body>
+
 <div class="official_doc">
 
     <h2>Politique de confidentialité</h2>
@@ -61,5 +63,7 @@
         envoyer un e-mail à l'adresse hugodelbegue@gmail.com.</p>
 
 </div>
+
+</body>
 
 <?php include '../templates/footer.html.php' ?>

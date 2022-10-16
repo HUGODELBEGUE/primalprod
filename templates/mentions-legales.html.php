@@ -1,5 +1,7 @@
 <?php include '../templates/header.html.php' ?>
 
+<body>
+
 <div class="official_doc">
     <h2>1. Présentation du site.</h2>
     <p>En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, il
@@ -167,6 +169,8 @@
         janvier 1978).
     </p>
 </div>
+
+</body>
 
 
 <?php include '../templates/footer.html.php' ?>
